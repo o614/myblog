@@ -1,6 +1,6 @@
 ---
 title: 我的个人技术博客正式上线
-author: 290935
+author: 吃着火锅唱着歌
 pubDatetime: 2026-06-18T09:35:00.000Z
 slug: start-my-tech-blog
 featured: true
