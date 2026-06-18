@@ -29,12 +29,12 @@ export default defineConfig({
     }),
   ],
   i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
-    routing: {
-      prefixDefaultLocale: false,
-    },
+  locales: ["zh-CN"],
+  defaultLocale: "zh-CN",
+  routing: {
+    prefixDefaultLocale: false,
   },
+},
   markdown: {
     processor: unified({
       remarkPlugins: [
