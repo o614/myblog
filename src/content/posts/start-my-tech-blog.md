@@ -1,19 +1,12 @@
 ---
-
 title: "不要艾特我的数字生活笔记上线了"
 author: "不要艾特我"
 pubDatetime: 2026-06-19T03:30:00.000Z
 slug: "start-digital-life-blog"
 featured: true
 draft: false
-tags:
-
-* "数字生活"
-* "Apple ID"
-* "App Store"
-* "AI 工具"
-  description: "这个博客会长期记录 Apple ID、App Store、礼品卡、AI 订阅、Google 账号和数字工具折腾经验。"
-
+tags: ["数字生活", "Apple ID", "App Store", "AI 工具"]
+description: "这个博客会长期记录 Apple ID、App Store、礼品卡、AI 订阅、Google 账号和数字工具折腾经验。"
 ---
 
 这个博客终于上线了。
@@ -36,13 +29,13 @@ tags:
 
 后面这个博客主要会更新这些方向：
 
-* Apple ID 注册、邮箱修改、地区修改、账号申诉
-* App Store 下载、旧版软件安装、订阅和内购问题
-* Apple 礼品卡购买、充值、余额和支付相关经验
-* ChatGPT、Claude、Gemini、Grok 等 AI 工具账号和订阅
-* Google 账号注册、资料修改、地区设置和 Google Play 相关问题
-* iPhone、iPad、浏览器、邮箱、eSIM 等数字工具折腾记录
-* 账号、支付、订阅和地区规则变化带来的风险提醒
+- Apple ID 注册、邮箱修改、地区修改、账号申诉
+- App Store 下载、旧版软件安装、订阅和内购问题
+- Apple 礼品卡购买、充值、余额和支付相关经验
+- ChatGPT、Claude、Gemini、Grok 等 AI 工具账号和订阅
+- Google 账号注册、资料修改、地区设置和 Google Play 相关问题
+- iPhone、iPad、浏览器、邮箱、eSIM 等数字工具折腾记录
+- 账号、支付、订阅和地区规则变化带来的风险提醒
 
 这些内容大多来自真实使用过程和实际问题处理，不会只写表面步骤。
 
@@ -62,11 +55,11 @@ tags:
 
 这个博客更适合放：
 
-* 长教程
-* 完整排查过程
-* 常见问题合集
-* 规则变化记录
-* 长期可搜索的资料
+- 长教程
+- 完整排查过程
+- 常见问题合集
+- 规则变化记录
+- 长期可搜索的资料
 
 以后公众号里讲不完的内容，我会尽量在博客里整理得更完整。
 
