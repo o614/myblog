@@ -35,37 +35,37 @@ const homePath = getRelativeLocaleUrl(locale, "");
   >
     <section id="hero" class="border-border border-b pt-8 pb-6">
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Mingalaba
+        290935 技术笔记
       </h1>
       <a
         target="_blank"
         href={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}rss.xml`}
         class="inline-block"
-        aria-label="RSS Feed"
-        title="RSS Feed"
+        aria-label="RSS 订阅"
+        title="RSS 订阅"
       >
         <IconRss
           width={20}
           height={20}
           class="stroke-accent scale-125 stroke-3 rtl:-rotate-90"
         />
-        <span class="sr-only">RSS Feed</span>
+        <span class="sr-only">RSS 订阅</span>
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        这里记录我在实际折腾中遇到的技术问题、排查过程和解决方案。
+        内容主要围绕 Cloudflare、GitHub、AI 自动化、微信开发、跨境工具和日常技术问题。
       </p>
       <p class="mt-2">
-        Read the blog posts or check
+        我更关注可复现的操作步骤和真实踩坑记录，而不是堆概念。希望这些笔记既方便自己回查，
+        也能给遇到类似问题的人一点参考。你也可以查看
         <LinkButton
           class="hover:text-accent underline decoration-dashed underline-offset-4"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href={getRelativeLocaleUrl(locale, "about")}
         >
-          README
-        </LinkButton> for more info.
+          关于页面
+        </LinkButton>
+        了解这个博客的内容方向。
       </p>
       {
         socials.length > 0 && (
