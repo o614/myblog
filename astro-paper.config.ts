@@ -1,11 +1,11 @@
 import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
-  site: {
+site: {
   url: "https://290935.xyz/",
-  title: "不要艾特我",
-  description: "记录技术折腾、AI 自动化、Apple ID、微信开发和跨境工具实践。",
-  author: "吃着火锅唱着歌",
+  title: "不要艾特我 · 数字生活笔记",
+  description: "记录 Apple ID、App Store、礼品卡、AI 订阅、Google 账号和数字工具折腾经验。",
+  author: "不要艾特我",
   profile: "https://290935.xyz/",
   ogImage: "default-og.jpg",
   lang: "zh-CN",
