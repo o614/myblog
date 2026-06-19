@@ -1,18 +1,18 @@
 ---
 
-title: 不要艾特我の数字生活笔记上线了
+title: "不要艾特我的数字生活笔记上线了"
 author: "不要艾特我"
 pubDatetime: 2026-06-19T03:30:00.000Z
-slug: start-digital-life-blog
+slug: "start-digital-life-blog"
 featured: true
 draft: false
 tags:
 
-* 数字生活
-* Apple ID
-* App Store
-* AI 工具
-  description: 这个博客会长期记录 Apple ID、App Store、礼品卡、AI 订阅、Google 账号和数字工具折腾经验。
+* "数字生活"
+* "Apple ID"
+* "App Store"
+* "AI 工具"
+  description: "这个博客会长期记录 Apple ID、App Store、礼品卡、AI 订阅、Google 账号和数字工具折腾经验。"
 
 ---
 
