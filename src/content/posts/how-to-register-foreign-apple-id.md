@@ -7,7 +7,6 @@ featured: false
 draft: false
 tags: ["Apple ID", "App Store", "外区账号", "账号教程"]
 description: "本文以美国 Apple ID 为例，整理外区 Apple ID 的注册准备、操作步骤、首次登录 App Store、常见失败原因和风险提醒。"
-ogImage: "/images/posts/apple-id-register-og.png"
 ---
 ![Apple ID 注册页面](/images/posts/apple-id-register-0.png)
 ---
