@@ -73,6 +73,8 @@ description: "本文整理 Apple ID 修改国家或地区的必要条件、具�
 
 **推荐使用公众号提供的账单寄送地址，均经过本人和诸多用户验证，规范有效。**
 
+![公众号](/images/posts/how-to-change-apple-id-region-4.png)
+
 ### 4）加入家人共享的账号需要先退出
 
 如果 Apple ID 加入了家人共享，无法直接修改国家或地区。
@@ -107,13 +109,15 @@ description: "本文整理 Apple ID 修改国家或地区的必要条件、具�
 
 下面开始正式操作。
 
-
+![UU 加速器](/images/posts/how-to-change-apple-id-region-0.png)
 
 打开 UU 加速器，搜索 App Store，选择对应项目进行加速。
 
 如果你的工具支持全局代理或系统代理，建议确认 App Store 的请求确实走了对应环境。
 
 这里的目的不是为了做复杂操作，而是尽量让 App Store 当前环境和你要修改的目标地区保持一致。
+
+![1-3 步](/images/posts/how-to-change-apple-id-region-1.png)
 
 ### 第一步：登录需要改区的 Apple ID
 
@@ -130,6 +134,8 @@ description: "本文整理 Apple ID 修改国家或地区的必要条件、具�
 进入账户页面后，点击顶部账号信息。
 
 有时候系统会要求你重新输入 Apple ID 密码，按提示输入即可。
+
+![4-6 步](/images/posts/how-to-change-apple-id-region-2.png)
 
 ### 第四步：点击“国家/地区”
 
@@ -157,6 +163,8 @@ description: "本文整理 Apple ID 修改国家或地区的必要条件、具�
 
 这里是比较容易报错的位置。
 如果点击同意后提示“出现错误，请稍后再试”，可以先看后面的常见失败原因。
+
+![7-9 步](/images/posts/how-to-change-apple-id-region-3.png)
 
 ### 第七步：选择付款方式
 
