@@ -31,3 +31,9 @@
   --muted-foreground: #a1a1a6;
   --border: #424245;
 }
+
+/* 隐藏文章标题后面的锚点 # */
+.prose :is(h1, h2, h3, h4, h5, h6) a[href^="#"],
+article :is(h1, h2, h3, h4, h5, h6) a[href^="#"] {
+  display: none !important;
+}
