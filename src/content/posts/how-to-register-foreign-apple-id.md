@@ -8,7 +8,7 @@ draft: false
 tags: ["Apple ID", "App Store", "外区账号", "账号教程"]
 description: "本文以美国 Apple ID 为例，整理外区 Apple ID 的注册准备、操作步骤、首次登录 App Store、常见失败原因和风险提醒。"
 ---
-![Apple ID 注册页面示例](/images/posts/apple-id-register-0.png)
+![Apple ID 注册页面](/images/posts/apple-id-register-0.png)
 ---
 
 > 外区 Apple ID 注册是个老生常谈的话题，但最近两年，苹果账号的注册规则、验证方式、首次登录流程都有一些变化。以前能用的方法，现在不一定可行。
@@ -78,6 +78,8 @@ itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=1434
 
 ## 四、具体注册步骤
 
+![Apple ID 信息填写界面](/images/posts/apple-id-register-1.png)
+
 **第 1 步，打开 Apple ID 注册页面。**
 
 在浏览器里打开苹果账号注册页面：
@@ -117,6 +119,8 @@ https://account.apple.com/account
 **第 8 步，完成邮箱和短信验证。**
 
 先去邮箱查看验证码，再查看手机短信验证码。两个验证都通过后，账号基本就创建成功了。
+
+![Apple ID 信息管理界面](/images/posts/apple-id-register-4.png)
 
 但要注意：注册成功不代表 App Store 已经可以正常下载外区 App。接下来还需要处理首次登录 App Store。
 
@@ -246,4 +250,4 @@ iPhone 上某个 App 是哪个 Apple ID 下载的，后续更新时通常还会�
 
 苹果账号规则一直在变，越往后不一定越简单。
 
-![赞赏](/images/posts/apple-id-register-0.png)
+![赞赏](/Buy-Me-a-Coffee.jpg)
