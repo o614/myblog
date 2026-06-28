@@ -111,6 +111,8 @@ QQ 邮箱、网易邮箱有时候也能用，但实际操作中偶尔会遇到�
 
 ### 第一步：打开 Apple 官方礼品卡购买页面
 
+![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website.png)
+
 打开 Apple 官方礼品卡购买页面：
 
 [Apple 官方礼品卡购买页面](https://www.apple.com/shop/buy-giftcard/giftcard)
@@ -168,6 +170,7 @@ Add to Bag
 ```
 
 ### 第二步：确认礼品卡信息
+![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website4.png)
 
 进入购物袋或信息确认页面后，重点检查两项：
 
@@ -192,6 +195,7 @@ Continue as Guest
 也就是游客身份继续购买。
 
 ### 第三步：填写付款方式
+![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website6.png)
 
 来到付款方式页面后，选择：
 
@@ -221,6 +225,7 @@ Billing Address
 * 不要出现汉字或特殊符号
 
 ### 第四步：填写联系方式
+![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website4.png)
 
 接下来填写：
 
@@ -242,6 +247,7 @@ Continue to Review
 ```
 
 ### 第五步：确认订单并提交
+![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website10.png)
 
 来到最终确认页面后，再检查一遍：
 
@@ -265,6 +271,7 @@ Place Your Order
 ```
 
 ### 第六步：查看订单状态
+![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website12.png)
 
 如果提交顺利，页面会显示订单号。
 
@@ -280,9 +287,8 @@ Place Your Order
 
 | 渠道         | 优点               | 缺点                        |
 | ---------- | ---------------- | ------------------------- |
-| Apple 官网   | 来源清楚，订单可查，风险相对更低 | 不一定每次付款成功，对邮箱、银行卡、账单地址有要求 |
-| 第三方平台      | 有时候购买方便，可能有人代操作  | 价格不稳定，来源难判断，出问题后很难追溯      |
-| 个人卖家 / 闲鱼等 | 可能看起来便宜          | 风险最高，无法判断卡的来源和状态          |
+| Apple 官网   | 来源清楚，订单可查，风险相低 | 最小面额有要求，对邮箱、银行卡、账单地址有要求 |
+| 第三方平台      | 购买方便，支持小面额（比如 3 美金） | 价格不稳定，来源难判断，出问题后很难维权      |
 
 我个人的建议很简单：
 
@@ -294,6 +300,7 @@ Apple ID 账号本身比一张礼品卡更重要，不要为了省一点钱，�
 ## 7. 常见购买失败原因
 
 ### 1）提示 Your payment authorization failed
+![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website15.png)
 
 这个错误比较常见。
 
@@ -398,7 +405,7 @@ Apple 礼品卡虽然使用方便，但不是完全没有风险。
 
 第一次建议买最小金额测试。
 
-以美国区为例，可以先用 10 美元测试。
+以美国为例，可以先用 10 美元测试。
 不要一上来就买大额。
 
 ### Q3：接收邮箱可以用 QQ 或网易邮箱吗？
@@ -436,15 +443,15 @@ Apple 礼品卡虽然使用方便，但不是完全没有风险。
 
 ### Q7：美国区礼品卡可以给中国区 Apple ID 用吗？
 
-不建议这样理解。
+不能。
 
-礼品卡通常和账号地区相关。
-美国区礼品卡主要用于美国区 Apple ID。
-如果你的 Apple ID 是中国大陆区，通常不能直接兑换美国区礼品卡。
+礼品卡通常和账号地区绑定。
+美国礼品卡只能用在美国 Apple ID。
+如果你的 Apple ID 是中国大陆区，不能直接兑换美国礼品卡。
 
 ### Q8：充值后可以改区吗？
 
-有余额时通常不适合改区。
+有余额时不能改区。
 
 如果你后面有改区需求，建议先不要充值。
 Apple ID 改区通常要求账号没有余额、没有欠款，也没有生效中的订阅。
@@ -471,3 +478,4 @@ Apple 礼品卡购买渠道很多，但我个人最推荐的还是 Apple 官网�
 最后还是那句话：
 
 **Apple ID 账号本身比礼品卡更重要。不要为了省一点差价，去碰来路不清的卡。**
+![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website15.png)
