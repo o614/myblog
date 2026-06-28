@@ -229,7 +229,6 @@ Billing Address
 * 不要出现汉字或特殊符号
 
 **第 4 步：填写联系方式**
-![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website4.png)
 
 接下来填写：
 
