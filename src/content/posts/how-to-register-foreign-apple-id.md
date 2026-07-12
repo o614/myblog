@@ -3,7 +3,7 @@ title: "如何注册外区 Apple ID？2026 年最新版"
 author: "不要艾特我"
 pubDatetime: 2026-06-20T14:30:00.000Z
 slug: "how-to-register-foreign-apple-id"
-featured: false
+featured: true
 draft: false
 tags: ["Apple ID", "App Store", "外区账号", "账号教程"]
 description: "本文以美国 Apple ID 为例，整理外区 Apple ID 的注册准备、操作步骤、首次登录 App Store、常见失败原因和风险提醒。"

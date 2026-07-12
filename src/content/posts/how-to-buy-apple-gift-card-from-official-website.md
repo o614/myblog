@@ -3,7 +3,7 @@ title: "如何在 Apple 官网购买苹果礼品卡？"
 author: "不要艾特我"
 pubDatetime: 2026-06-28T13:45:00.000Z
 slug: "how-to-buy-apple-gift-card-from-official-website"
-featured: false
+featured: true
 draft: false
 tags: ["Apple 礼品卡", "Apple ID", "App Store", "订阅支付"]
 description: "本文以美国区 Apple 礼品卡为例，整理从 Apple 官网购买礼品卡的完整流程、官方渠道和第三方渠道的区别、常见购买失败原因以及风险提醒。"

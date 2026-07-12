@@ -6,7 +6,7 @@ site: {
   title: "不要艾特我 · 数字生活笔记",
   description: "记录 Apple ID、App Store、礼品卡、AI 订阅、Google 账号和数字工具折腾经验。",
   author: "不要艾特我",
-  profile: "https://290935.xyz/",
+  profile: "https://290935.xyz/about/",
   ogImage: "default-og.jpg",
   lang: "zh-CN",
   timezone: "Asia/Shanghai",
