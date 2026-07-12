@@ -17,6 +17,7 @@ import {
   transformerNotationWordHighlight,
 } from "@shikijs/transformers";
 import { transformerFileName } from "./src/utils/transformers/fileName";
+import { rehypeOptimizeImages } from "./src/utils/rehypeOptimizeImages";
 import config from "./astro-paper.config";
 
 export default defineConfig({
@@ -29,19 +30,19 @@ export default defineConfig({
     }),
   ],
   i18n: {
-  locales: ["zh-CN"],
-  defaultLocale: "zh-CN",
-  routing: {
-    prefixDefaultLocale: false,
+    locales: ["zh-CN"],
+    defaultLocale: "zh-CN",
+    routing: {
+      prefixDefaultLocale: false,
+    },
   },
-},
   markdown: {
     processor: unified({
       remarkPlugins: [
         remarkToc,
         [remarkCollapse, { test: "Table of contents" }],
       ],
-      rehypePlugins: [rehypeCallouts],
+      rehypePlugins: [rehypeOptimizeImages, rehypeCallouts],
     }),
     shikiConfig: {
       themes: { light: "min-light", dark: "night-owl" },
