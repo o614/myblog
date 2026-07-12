@@ -1,20 +1,38 @@
 @plugin "@tailwindcss/typography";
 
 @layer base {
-  /* ===== Override default Tailwind Typography styles ===== */
+  /* ===== Article typography ===== */
   .app-prose {
     @apply prose;
+
+    max-width: 44rem;
+    margin-inline: auto;
+    font-family:
+      -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+      "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.9;
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
 
     h1,
     h2,
     h3,
     h4,
     th {
-      @apply text-foreground mb-3;
+      @apply text-foreground;
+    }
+
+    h2 {
+      @apply border-border mt-12 mb-5 border-b pb-2 text-[1.55rem] leading-snug font-bold not-italic;
     }
 
     h3 {
-      @apply italic;
+      @apply mt-9 mb-4 text-[1.2rem] leading-snug font-semibold not-italic;
+    }
+
+    h4 {
+      @apply mt-7 mb-3 text-base leading-snug font-semibold;
     }
 
     p,
@@ -27,8 +45,17 @@
       @apply text-foreground;
     }
 
+    p {
+      @apply my-[1.1rem];
+    }
+
     a {
-      @apply text-foreground hover:text-accent wrap-break-word decoration-dashed underline-offset-4 focus-visible:no-underline;
+      @apply text-accent wrap-break-word decoration-dashed underline-offset-4 hover:decoration-solid focus-visible:no-underline;
+    }
+
+    ul,
+    ol {
+      @apply my-5;
     }
 
     ul {
@@ -36,7 +63,11 @@
     }
 
     li {
-      @apply marker:text-accent;
+      @apply marker:text-accent my-2;
+    }
+
+    li > p {
+      @apply my-2;
     }
 
     hr {
@@ -44,7 +75,7 @@
     }
 
     img {
-      @apply border-border mx-auto border;
+      @apply border-border bg-muted/75 mx-auto my-8 rounded-lg border shadow-sm;
     }
 
     img[role="button"] {
@@ -56,13 +87,15 @@
     }
 
     figcaption {
-      @apply opacity-75;
+      @apply text-muted-foreground mt-3 text-center text-sm leading-relaxed;
     }
 
     table {
+      @apply my-7 block max-w-full overflow-x-auto text-[0.94rem];
+
       th,
       td {
-        @apply border-border border p-2;
+        @apply border-border border px-3 py-2;
       }
 
       th {
@@ -71,7 +104,8 @@
     }
 
     code {
-      @apply bg-muted/75 text-foreground rounded p-1 wrap-break-word before:content-none after:content-none;
+      @apply bg-muted/75 text-foreground rounded p-1 text-[0.9em] wrap-break-word before:content-none after:content-none;
+      font-family: var(--font-google-sans-code), ui-monospace, monospace;
     }
 
     .astro-code code {
@@ -79,7 +113,15 @@
     }
 
     blockquote {
-      @apply border-s-accent/80 wrap-break-word opacity-80;
+      @apply border-s-accent/80 bg-muted/75 my-7 rounded-r-lg py-1 wrap-break-word text-inherit not-italic;
+
+      p:first-of-type {
+        @apply mt-3;
+      }
+
+      p:last-of-type {
+        @apply mb-3;
+      }
     }
 
     details:not(.callout) {
@@ -91,7 +133,42 @@
     }
 
     pre {
-      @apply focus-visible:outline-accent focus-visible:border-transparent focus-visible:outline-2 focus-visible:outline-dashed;
+      @apply focus-visible:outline-accent my-7 rounded-lg focus-visible:border-transparent focus-visible:outline-2 focus-visible:outline-dashed;
+    }
+  }
+
+  .article-header {
+    font-family:
+      -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+      "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+
+    h1 {
+      letter-spacing: -0.025em;
+      text-wrap: balance;
+    }
+  }
+
+  .article-summary {
+    @apply text-muted-foreground text-base leading-relaxed sm:text-lg;
+    text-wrap: pretty;
+  }
+
+  @media (max-width: 640px) {
+    .app-prose {
+      font-size: 1rem;
+      line-height: 1.85;
+
+      h2 {
+        @apply mt-10 text-[1.4rem];
+      }
+
+      h3 {
+        @apply mt-8 text-[1.12rem];
+      }
+
+      img {
+        @apply my-6 rounded-md;
+      }
     }
   }
 
