@@ -1,5 +1,5 @@
 ---
-title: "iPhone 如何安装旧版本 App？用 iTunes 下载指定版本 IPA"
+title: "iPhone 如何安装旧版本 App？"
 author: "不要艾特我"
 pubDatetime: 2026-07-12T10:30:00.000Z
 slug: "install-old-version-app-on-iphone"
@@ -360,3 +360,4 @@ v8.2 版本增加了“前往 iTunes Store”功能，可以自动跳转到应�
 如果问题解决，再决定是否继续使用旧版本；如果问题没有解决，就不要继续在旧版本上浪费时间。
 
 希望这篇教程能帮助到想要降级软件版本，或者安装指定版本 App 的朋友。
+![iPhone 如何安装旧版软件](/Buy-Me-a-Coffee.jpg)
