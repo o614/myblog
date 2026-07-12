@@ -8,8 +8,8 @@ draft: false
 tags: ["Apple ID", "App Store", "外区账号", "账号教程"]
 description: "本文以美国 Apple ID 为例，整理外区 Apple ID 的注册准备、操作步骤、首次登录 App Store、常见失败原因和风险提醒。"
 ---
-![Apple ID 注册页面](/images/posts/apple-id-register-0.png)
----
+
+## ![Apple ID 注册页面](/images/posts/apple-id-register-0.png)
 
 > 外区 Apple ID 注册是个老生常谈的话题，但最近两年，苹果账号的注册规则、验证方式、首次登录流程都有一些变化。以前能用的方法，现在不一定可行。
 
@@ -21,10 +21,10 @@ description: "本文以美国 Apple ID 为例，整理外区 Apple ID 的注册�
 
 很多人注册外区 Apple ID 时，最容易卡在这些地方：
 
-* *无法使用此电子邮件地址*
-* *此时无法创建你的账户*
-* *账户不在此店面*
-* *你的账户已在 App Store 和 iTunes 中被禁用*
+- _无法使用此电子邮件地址_
+- _此时无法创建你的账户_
+- _账户不在此店面_
+- _你的账户已在 App Store 和 iTunes 中被禁用_
 
 看完这篇文章，你应该能明白：外区 Apple ID 怎么注册，首次登录 App Store 怎么处理，为什么有些人注册成功后仍然下载不了 App，以及遇到失败提示时该怎么排查。
 
@@ -42,12 +42,12 @@ description: "本文以美国 Apple ID 为例，整理外区 Apple ID 的注册�
 
 注册外区 Apple ID 前，建议准备好这几样东西：
 
-* iPhone 或 iPad
-* 没有注册过 Apple ID 的邮箱
-* 可以接收短信的手机号
-* 电脑端 Chrome 浏览器，建议开启无痕模式
-* 对应地区的 App Store 换区链接
-  
+- iPhone 或 iPad
+- 没有注册过 Apple ID 的邮箱
+- 可以接收短信的手机号
+- 电脑端 Chrome 浏览器，建议开启无痕模式
+- 对应地区的 App Store 换区链接
+
 ![公众号：不要艾特我](/images/posts/apple-id-register-5.png)
 
 常用换区链接我放这里，如果需要其他国家/地区的链接，直接在公众号后台回复：切换+国家/地区名即可。
@@ -130,8 +130,8 @@ https://account.apple.com/account
 
 更稳妥的做法是：
 
-* 系统设置里继续使用你原来的主 Apple ID
-* App Store 里单独登录外区 Apple ID
+- 系统设置里继续使用你原来的主 Apple ID
+- App Store 里单独登录外区 Apple ID
 
 具体流程是：
 
@@ -159,9 +159,9 @@ https://account.apple.com/account
 
 可以按这个顺序排查：
 
-* 先换邮箱；
-* 再换手机号；
-* 再换浏览器或设备环境。
+- 先换邮箱；
+- 再换手机号；
+- 再换浏览器或设备环境。
 
 不要在同一个环境里连续失败后一直硬试，连续失败太多次反而更容易触发风控。
 
@@ -187,12 +187,12 @@ iPhone 上某个 App 是哪个 Apple ID 下载的，后续更新时通常还会�
 
 刚注册的新账号，不建议立刻做这些操作：
 
-* 登录到设置里做主 Apple ID
-* 频繁切换国家或地区
-* 短时间内反复登录退出
-* 大量下载 App
-* 购买订阅或充值礼品卡
-* 多台设备同时登录同一个账号
+- 登录到设置里做主 Apple ID
+- 频繁切换国家或地区
+- 短时间内反复登录退出
+- 大量下载 App
+- 购买订阅或充值礼品卡
+- 多台设备同时登录同一个账号
 
 **最稳妥的方式是：系统设置里继续使用主 Apple ID，App Store 单独登录外区 Apple ID，用来下载外区免费软件。**
 
