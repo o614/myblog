@@ -96,8 +96,6 @@ description: "本文以 iPhone 安装旧版本 App 为例，整理使用 iTunes�
 
 另外，建议尽量从开发者原帖下载工具，不要随意使用来源不明的安装包。尤其不要付费购买。作者多次声明这是一款免费软件。
 
-![iTunes、爱思助手和版本拦截工具准备](/images/posts/install-old-version-app-0.png)
-
 ## 5. 操作前的注意事项
 
 正式操作前，先看完下面这些注意事项。
@@ -152,7 +150,7 @@ description: "本文以 iPhone 安装旧版本 App 为例，整理使用 iTunes�
 
 在工具中搜索需要降级或安装指定版本的应用，找到后双击进入版本管理界面。
 
-![在版本拦截工具中搜索应用](/images/posts/install-old-version-app-1.png)
+![iPhone 如何安装旧版软件](/images/posts/how-to-install-old-version-app1.png)
 
 v8.2 版本增加了“前往 iTunes Store”功能，可以自动跳转到应用在 iTunes 中的详情页面。
 
@@ -172,7 +170,7 @@ v8.2 版本增加了“前往 iTunes Store”功能，可以自动跳转到应�
 拦截中，请前往 iTunes 下载！
 ```
 
-![选择需要下载的 App 版本](/images/posts/install-old-version-app-2.png)
+![iPhone 如何安装旧版软件](/images/posts/how-to-install-old-version-app2.png)
 
 这里要注意一点：
 
@@ -188,7 +186,7 @@ v8.2 版本增加了“前往 iTunes Store”功能，可以自动跳转到应�
 
 下载过程中，需要留意 iTunes 右上角的下载图标。
 
-![在 iTunes 中下载指定版本 App](/images/posts/install-old-version-app-3.png)
+![iPhone 如何安装旧版软件](/images/posts/how-to-install-old-version-app3.png)
 
 如果下载一直卡住，可以尝试下面这个顺序：
 
@@ -216,7 +214,7 @@ v8.2 版本增加了“前往 iTunes Store”功能，可以自动跳转到应�
 
 这样就可以找到对应的 `.ipa` 安装文件。
 
-![在 iTunes 中找到 IPA 文件](/images/posts/install-old-version-app-4.png)
+![iPhone 如何安装旧版软件](/images/posts/how-to-install-old-version-app4.png)
 
 ### 第五步：连接 iPhone
 
@@ -234,7 +232,7 @@ v8.2 版本增加了“前往 iTunes Store”功能，可以自动跳转到应�
 
 找到刚才下载好的 `.ipa` 文件后，可以双击文件，系统通常会自动唤起爱思助手进行安装。
 
-![使用爱思助手安装 IPA 文件](/images/posts/install-old-version-app-5.png)
+![iPhone 如何安装旧版软件](/images/posts/how-to-install-old-version-app5.png)
 
 如果双击没有反应，也可以手动打开爱思助手：
 
@@ -250,7 +248,7 @@ v8.2 版本增加了“前往 iTunes Store”功能，可以自动跳转到应�
 
 等待安装完成即可。
 
-![爱思助手导入安装旧版本 App](/images/posts/install-old-version-app-6.png)
+![iPhone 如何安装旧版软件](/images/posts/how-to-install-old-version-app6.png)
 
 ## 7. 常见问题
 
