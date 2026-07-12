@@ -2,7 +2,7 @@
 title: "iPhone 如何安装旧版本 App？"
 author: "不要艾特我"
 pubDatetime: 2026-07-12T10:30:00.000Z
-slug: "install-old-version-app-on-iphone"
+slug: "how-to-install-old-version-app-on-iphone"
 featured: false
 draft: false
 tags: ["iPhone", "旧版 App", "App Store", "软件教程"]
