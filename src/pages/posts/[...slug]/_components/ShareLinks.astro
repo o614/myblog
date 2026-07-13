@@ -33,7 +33,32 @@ const items = await Promise.all(
   items.some(({ Icon }) => Icon) && (
     <div class="flex flex-none flex-col items-center justify-center gap-1 md:items-start">
       <span class="italic">{t.post.sharePostIntro}</span>
-      <div class="text-center">
+      <div class="flex flex-wrap items-center justify-center gap-1">
+        <button
+          type="button"
+          data-copy-share-link
+          data-copy-label={t.post.copyLink}
+          data-copied-label={t.post.linkCopied}
+          class="border-border hover:border-accent hover:text-accent inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-sm transition-colors"
+          title={t.post.copyLink}
+          aria-label={t.post.copyLink}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="size-4"
+            aria-hidden="true"
+          >
+            <path d="M10 13a5 5 0 0 0 7.07.07l2-2a5 5 0 0 0-7.07-7.07l-1.15 1.15" />
+            <path d="M14 11a5 5 0 0 0-7.07-.07l-2 2A5 5 0 0 0 12 20l1.15-1.15" />
+          </svg>
+          <span data-copy-share-label>{t.post.copyLink}</span>
+        </button>
         {items.map(({ url, title, Icon }) =>
           Icon ? (
             <LinkButton
@@ -52,3 +77,43 @@ const items = await Promise.all(
     </div>
   )
 }
+
+<script is:inline data-astro-rerun>
+  const copyShareButton = document.querySelector("[data-copy-share-link]");
+
+  if (copyShareButton instanceof HTMLButtonElement) {
+    copyShareButton.addEventListener("click", async () => {
+      const label = copyShareButton.querySelector("[data-copy-share-label]");
+      const copyLabel = copyShareButton.dataset.copyLabel ?? "Copy link";
+      const copiedLabel = copyShareButton.dataset.copiedLabel ?? "Copied";
+      const canonicalUrl = document.querySelector(
+        'link[rel="canonical"]'
+      )?.href;
+      const url = canonicalUrl ?? window.location.href.split("#")[0];
+
+      try {
+        await navigator.clipboard.writeText(url);
+      } catch {
+        const textArea = document.createElement("textarea");
+        textArea.value = url;
+        textArea.setAttribute("readonly", "");
+        textArea.style.position = "fixed";
+        textArea.style.opacity = "0";
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand("copy");
+        textArea.remove();
+      }
+
+      if (label) label.textContent = copiedLabel;
+      copyShareButton.title = copiedLabel;
+      copyShareButton.setAttribute("aria-label", copiedLabel);
+
+      window.setTimeout(() => {
+        if (label) label.textContent = copyLabel;
+        copyShareButton.title = copyLabel;
+        copyShareButton.setAttribute("aria-label", copyLabel);
+      }, 1600);
+    });
+  }
+</script>

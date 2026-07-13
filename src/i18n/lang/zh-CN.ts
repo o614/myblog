@@ -15,6 +15,8 @@ export default {
     sharePostIntro: "分享这篇文章：",
     sharePostOn: "分享到 {{platform}}",
     sharePostViaEmail: "通过邮件分享",
+    copyLink: "复制链接",
+    linkCopied: "已复制",
     tagLabel: "标签",
     backToTop: "返回顶部",
     goBack: "返回",

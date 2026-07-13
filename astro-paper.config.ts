@@ -28,7 +28,7 @@ editPost: {
     search: "pagefind",
   },
   socials: [
-  { name: "github", url: "https://github.com/0614" },
+  { name: "github", url: "https://github.com/o614" },
 ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
