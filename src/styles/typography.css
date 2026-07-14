@@ -76,6 +76,14 @@
       @apply border-border bg-muted/75 mx-auto my-8 rounded-lg border shadow-sm;
     }
 
+    figure {
+      @apply my-8;
+
+      img {
+        @apply my-0;
+      }
+    }
+
     img[role="button"] {
       @apply cursor-zoom-in;
 

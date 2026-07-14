@@ -6,6 +6,7 @@ type HastNode = {
   tagName?: string;
   properties?: Record<string, unknown>;
   children?: HastNode[];
+  value?: string;
 };
 
 /**
@@ -16,6 +17,48 @@ type HastNode = {
 export function rehypeOptimizeImages() {
   return async (tree: HastNode) => {
     const images: HastNode[] = [];
+
+    const wrapStandaloneImages = (node: HastNode) => {
+      if (!node.children) return;
+
+      node.children = node.children.map(child => {
+        const meaningfulChildren = child.children?.filter(
+          item => item.type !== "text" || item.value?.trim()
+        );
+        const image = meaningfulChildren?.[0];
+        const alt = image?.properties?.alt;
+
+        if (
+          child.type === "element" &&
+          child.tagName === "p" &&
+          meaningfulChildren?.length === 1 &&
+          image?.type === "element" &&
+          image.tagName === "img" &&
+          typeof alt === "string" &&
+          alt.trim()
+        ) {
+          return {
+            type: "element",
+            tagName: "figure",
+            properties: {},
+            children: [
+              image,
+              {
+                type: "element",
+                tagName: "figcaption",
+                properties: {},
+                children: [{ type: "text", value: alt.trim() }],
+              },
+            ],
+          };
+        }
+
+        wrapStandaloneImages(child);
+        return child;
+      });
+    };
+
+    wrapStandaloneImages(tree);
 
     const collectImages = (node: HastNode) => {
       if (node.type === "element" && node.tagName === "img") {

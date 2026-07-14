@@ -151,7 +151,7 @@ description: "本文以 iPhone 安装旧版本 App 为例，整理使用 iTunes�
 
 在工具中搜索需要降级或安装指定版本的应用，找到后双击进入版本管理界面。
 
-![在版本拦截工具中搜索需要安装的 App](/images/posts/how-to-install-old-version-app1.png)
+![在版本拦截工具中搜索一刻相册并打开历史版本列表](/images/posts/how-to-install-old-version-app1.webp)
 
 v8.2 版本增加了“前往 iTunes Store”功能，可以自动跳转到应用在 iTunes 中的详情页面。
 
@@ -171,7 +171,7 @@ v8.2 版本增加了“前往 iTunes Store”功能，可以自动跳转到应�
 拦截中，请前往 iTunes 下载！
 ```
 
-![选择目标版本并启动 iTunes 下载拦截](/images/posts/how-to-install-old-version-app2.png)
+![选择一刻相册的目标历史版本并启动 iTunes 下载拦截](/images/posts/how-to-install-old-version-app2.webp)
 
 这里要注意一点：
 
@@ -187,7 +187,7 @@ v8.2 版本增加了“前往 iTunes Store”功能，可以自动跳转到应�
 
 下载过程中，需要留意 iTunes 右上角的下载图标。
 
-![在 iTunes 中查看旧版本 App 的下载进度](/images/posts/how-to-install-old-version-app3.png)
+![在 iTunes 中查看一刻相册旧版本的下载进度](/images/posts/how-to-install-old-version-app3.webp)
 
 如果下载一直卡住，可以尝试下面这个顺序：
 
@@ -215,7 +215,7 @@ v8.2 版本增加了“前往 iTunes Store”功能，可以自动跳转到应�
 
 这样就可以找到对应的 `.ipa` 安装文件。
 
-![在 Windows 资源管理器中找到下载好的 IPA 文件](/images/posts/how-to-install-old-version-app4.png)
+![在 Windows 资源管理器中找到一刻相册的 IPA 安装文件](/images/posts/how-to-install-old-version-app4.webp)
 
 ### 第五步：连接 iPhone
 
@@ -233,7 +233,7 @@ v8.2 版本增加了“前往 iTunes Store”功能，可以自动跳转到应�
 
 找到刚才下载好的 `.ipa` 文件后，可以双击文件，系统通常会自动唤起爱思助手进行安装。
 
-![使用爱思助手导入旧版本 App 的 IPA 文件](/images/posts/how-to-install-old-version-app5.png)
+![使用爱思助手导入一刻相册旧版本的 IPA 文件](/images/posts/how-to-install-old-version-app5.webp)
 
 如果双击没有反应，也可以手动打开爱思助手：
 
@@ -249,7 +249,7 @@ v8.2 版本增加了“前往 iTunes Store”功能，可以自动跳转到应�
 
 等待安装完成即可。
 
-![爱思助手显示旧版本 App 安装完成](/images/posts/how-to-install-old-version-app6.png)
+![爱思助手提示一刻相册旧版本已经安装完成](/images/posts/how-to-install-old-version-app6.webp)
 
 ## 7. 常见问题
 
@@ -361,4 +361,5 @@ v8.2 版本增加了“前往 iTunes Store”功能，可以自动跳转到应�
 如果问题解决，再决定是否继续使用旧版本；如果问题没有解决，就不要继续在旧版本上浪费时间。
 
 希望这篇教程能帮助到想要降级软件版本，或者安装指定版本 App 的朋友。
-![iPhone 如何安装旧版软件](/Buy-Me-a-Coffee.jpg)
+
+![支持本站：赞赏二维码](/Buy-Me-a-Coffee.webp)
