@@ -9,7 +9,7 @@ tags: ["Apple 礼品卡", "Apple ID", "App Store", "订阅支付"]
 description: "本文以美国区 Apple 礼品卡为例，整理从 Apple 官网购买礼品卡的完整流程、官方渠道和第三方渠道的区别、常见购买失败原因以及风险提醒。"
 ---
 
-![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website.png)
+![美国 Apple 官网的 Apple Gift Card 购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website.webp)
 
 很多朋友问我：Apple 礼品卡到底从哪里买比较靠谱？怎样才能尽量避免买到来路不明的卡？
 
@@ -114,7 +114,7 @@ QQ 邮箱、网易邮箱有时候也能用，但实际操作中偶尔会遇到�
 
 **第 1 步：打开 Apple 官方礼品卡购买页面**
 
-![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website2.png)
+![Apple 官网电子礼品卡的金额和样式选择页面](/images/posts/how-to-buy-apple-gift-card-from-official-website2.webp)
 
 打开 Apple 官方礼品卡购买页面：
 
@@ -173,7 +173,8 @@ Add to Bag
 ```
 
 **第 2 步：确认礼品卡信息**
-![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website4.png)
+
+![Apple 礼品卡购物袋中的金额和收件人信息确认页面](/images/posts/how-to-buy-apple-gift-card-from-official-website4.webp)
 
 进入购物袋或信息确认页面后，重点检查两项：
 
@@ -198,7 +199,8 @@ Continue as Guest
 也就是游客身份继续购买。
 
 **第 3 步：填写付款方式**
-![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website6.png)
+
+![Apple 礼品卡订单的信用卡或借记卡付款方式页面](/images/posts/how-to-buy-apple-gift-card-from-official-website6.webp)
 
 来到付款方式页面后，选择：
 
@@ -209,7 +211,8 @@ Credit or Debit Card
 然后填写信用卡信息。
 
 如果你是刚申请的信用卡，或者第一次用于 Apple 官网付款，建议先确认这张卡是否已经开通境外线上支付、美元支付或相关安全验证功能。
-![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website8.png)
+
+![信用卡有效期 MM/YY 和 CVV 安全码所在位置示意图](/images/posts/how-to-buy-apple-gift-card-from-official-website8.webp)
 
 信用卡信息填写完成后，继续完善：
 
@@ -220,7 +223,8 @@ Billing Address
 也就是账单寄送地址。
 
 这里可以使用公众号提供的美国账单寄送地址模板，按照顺序复制粘贴即可。
-![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website9.png)
+
+![参照美国地址模板填写 Apple 礼品卡订单的账单地址](/images/posts/how-to-buy-apple-gift-card-from-official-website9.webp)
 
 填写时注意：
 
@@ -251,7 +255,8 @@ Continue to Review
 ```
 
 **第 5 步：确认订单并提交**
-![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website10.png)
+
+![提交 Apple 礼品卡订单前的商品和付款信息确认页面](/images/posts/how-to-buy-apple-gift-card-from-official-website10.webp)
 
 来到最终确认页面后，再检查一遍：
 
@@ -275,7 +280,8 @@ Place Your Order
 ```
 
 **第 6 步：查看订单状态**
-![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website12.png)
+
+![Apple 官网显示礼品卡订单号和订单状态](/images/posts/how-to-buy-apple-gift-card-from-official-website12.webp)
 
 如果提交顺利，页面会显示订单号。
 
@@ -304,7 +310,8 @@ Apple ID 账号本身比一张礼品卡更重要，不要为了省一点钱，�
 ## 七. 常见购买失败原因
 
 **1）提示 Your payment authorization failed**
-![Apple 官方礼品卡购买页面](/images/posts/how-to-buy-apple-gift-card-from-official-website15.png)
+
+![Apple 官网提示 Your payment authorization failed 付款授权失败](/images/posts/how-to-buy-apple-gift-card-from-official-website15.webp)
 
 这个错误比较常见。
 
@@ -482,4 +489,5 @@ Apple 礼品卡购买渠道很多，但我个人最推荐的还是 Apple 官网�
 最后还是那句话：
 
 **Apple ID 账号本身比礼品卡更重要。不要为了省一点差价，去碰来路不清的卡。**
-![Apple 官方礼品卡购买页面](/Buy-Me-a-Coffee.jpg)
+
+![支持本站：赞赏二维码](/Buy-Me-a-Coffee.webp)
