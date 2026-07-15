@@ -1,19 +1,19 @@
 ---
-name: "✨ Feature Request"
-about: Suggest an idea for improving AstroPaper
-title: "[Feature Request]: "
+name: "✨ 功能建议"
+about: 提议改进博客的阅读、搜索或分享体验
+title: "[建议]: "
 labels: enhancement
 assignees: ""
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## 使用场景
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+请说明你遇到的问题，以及这个建议会帮助谁。
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## 建议方案
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+请描述期望的结果。若考虑过其他方案，也可以一并说明。
+
+## 补充信息
+
+可以附上参考页面、截图或相关链接。

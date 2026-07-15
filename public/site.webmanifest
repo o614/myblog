@@ -1,0 +1,32 @@
+{
+  "id": "/",
+  "name": "不要艾特我 · 数字生活笔记",
+  "short_name": "不要艾特我",
+  "description": "记录 Apple ID、App Store、礼品卡、AI 订阅、Google 账号和数字工具折腾经验。",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fbfbfd",
+  "theme_color": "#FFE60F",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

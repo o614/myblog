@@ -79,13 +79,21 @@ const items = await Promise.all(
 }
 
 <script is:inline data-astro-rerun>
-  const copyShareButton = document.querySelector("[data-copy-share-link]");
+  (() => {
+    if (window.__copyShareLinkBound) return;
+    window.__copyShareLinkBound = true;
 
-  if (copyShareButton instanceof HTMLButtonElement) {
-    copyShareButton.addEventListener("click", async () => {
-      const label = copyShareButton.querySelector("[data-copy-share-label]");
-      const copyLabel = copyShareButton.dataset.copyLabel ?? "Copy link";
-      const copiedLabel = copyShareButton.dataset.copiedLabel ?? "Copied";
+    document.addEventListener("click", async event => {
+      const target =
+        event.target instanceof Element
+          ? event.target.closest("[data-copy-share-link]")
+          : null;
+
+      if (!(target instanceof HTMLButtonElement)) return;
+
+      const label = target.querySelector("[data-copy-share-label]");
+      const copyLabel = target.dataset.copyLabel ?? "Copy link";
+      const copiedLabel = target.dataset.copiedLabel ?? "Copied";
       const canonicalUrl = document.querySelector(
         'link[rel="canonical"]'
       )?.href;
@@ -106,14 +114,14 @@ const items = await Promise.all(
       }
 
       if (label) label.textContent = copiedLabel;
-      copyShareButton.title = copiedLabel;
-      copyShareButton.setAttribute("aria-label", copiedLabel);
+      target.title = copiedLabel;
+      target.setAttribute("aria-label", copiedLabel);
 
       window.setTimeout(() => {
         if (label) label.textContent = copyLabel;
-        copyShareButton.title = copyLabel;
-        copyShareButton.setAttribute("aria-label", copyLabel);
+        target.title = copyLabel;
+        target.setAttribute("aria-label", copyLabel);
       }, 1600);
     });
-  }
+  })();
 </script>

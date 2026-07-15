@@ -61,13 +61,14 @@ export default defineConfig({
   },
   fonts: [
     {
-      name: "Google Sans Code",
-      cssVariable: "--font-google-sans-code",
+      name: "Noto Sans SC",
+      cssVariable: "--font-noto-sans-sc",
       provider: fontProviders.google(),
-      fallbacks: ["monospace"],
-      weights: [300, 400, 500, 600, 700],
-      styles: ["normal", "italic"],
-      formats: ["woff", "ttf"],
+      fallbacks: ["sans-serif"],
+      weights: [400, 700],
+      styles: ["normal"],
+      subsets: ["chinese-simplified", "latin"],
+      formats: ["woff"],
     },
   ],
   env: {

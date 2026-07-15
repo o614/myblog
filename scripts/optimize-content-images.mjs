@@ -5,8 +5,7 @@ import sharp from "sharp";
 const ROOT = process.cwd();
 const CONTENT_DIR = path.join(ROOT, "src", "content", "posts");
 const PUBLIC_DIR = path.join(ROOT, "public");
-const IMAGE_PATTERN =
-  /(!\[[^\]]*\]\()([^\s)]+\.(?:png|jpe?g|webp))(\))/gi;
+const IMAGE_PATTERN = /(!\[[^\]]*\]\()([^\s)]+\.(?:png|jpe?g|webp))(\))/gi;
 const MAX_WIDTH = 1600;
 const WEBP_QUALITY = 84;
 const force = process.argv.includes("--force");

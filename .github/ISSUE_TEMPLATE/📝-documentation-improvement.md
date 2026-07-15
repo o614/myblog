@@ -1,16 +1,19 @@
 ---
-name: "\U0001F4DD Documentation Improvement"
-about: Propose updates or improvements to the documentation/blog posts
-title: "[Docs]: "
+name: "📝 内容修正"
+about: 提交文章错漏、失效链接或过时信息
+title: "[内容]: "
 labels: documentation
 assignees: ""
 ---
 
-**Describe the Issue**
-A clear and concise description of the documentation issue or improvement.
+## 涉及页面
 
-**Proposed Changes**
-Describe what changes should be made and why they would improve the documentation.
+请提供文章或页面地址。
 
-**Additional Context**
-Add any other context or screenshots about the documentation request here.
+## 需要修正的内容
+
+请指出原文位置、存在的问题和建议改法。
+
+## 核对依据
+
+如涉及政策、价格或操作流程，请附上官方来源及核对日期。
