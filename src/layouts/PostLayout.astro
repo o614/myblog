@@ -10,9 +10,10 @@ type Props = {
   canonicalURL?: string;
   pubDatetime?: Date;
   modDatetime?: Date | null;
+  tags?: string[];
 };
 
-const { site } = config;
+const { site, socials } = config;
 
 const {
   title,
@@ -22,17 +23,20 @@ const {
   canonicalURL,
   pubDatetime,
   modDatetime,
+  tags = [],
 } = Astro.props;
 
 const resolvedCanonicalURL =
   canonicalURL ?? new URL(Astro.url.pathname, Astro.site ?? Astro.url).href;
 
-const structuredData = {
-  "@context": "https://schema.org",
+const articleStructuredData = {
   "@type": "BlogPosting",
+  "@id": `${resolvedCanonicalURL}#article`,
   headline: headline ?? title ?? site.title,
   ...(description && { description }),
   image: ogImage,
+  inLanguage: site.lang,
+  ...(tags.length > 0 && { keywords: tags }),
   ...(resolvedCanonicalURL && {
     url: resolvedCanonicalURL,
     mainEntityOfPage: {
@@ -47,8 +51,45 @@ const structuredData = {
       "@type": "Person",
       name: site.author,
       ...(site.profile && { url: site.profile }),
+      ...(socials.length > 0 && { sameAs: socials.map(({ url }) => url) }),
     },
   ],
+  publisher: {
+    "@type": "Organization",
+    "@id": `${site.url}#publisher`,
+    name: site.title,
+    url: site.url,
+  },
+};
+
+const breadcrumbStructuredData = {
+  "@type": "BreadcrumbList",
+  "@id": `${resolvedCanonicalURL}#breadcrumb`,
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "首页",
+      item: site.url,
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "文章",
+      item: new URL("posts/", site.url).href,
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: headline ?? title ?? site.title,
+      item: resolvedCanonicalURL,
+    },
+  ],
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [articleStructuredData, breadcrumbStructuredData],
 };
 ---
 
