@@ -1,27 +1,27 @@
 ---
-name: "\U0001F41E Bug report"
-about: Report a bug or unexpected behavior in AstroPaper
-title: "[BUG]: "
+name: "🐞 网站问题"
+about: 报告页面、链接、构建或显示异常
+title: "[问题]: "
 labels: bug
 assignees: ""
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## 问题描述
 
-**To Reproduce**
-Steps to reproduce the behavior:
+请说明发生了什么，以及你原本期待看到的结果。
 
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+## 复现步骤
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+1. 打开：
+2. 点击或滚动到：
+3. 出现的问题：
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+## 环境
 
-**Additional context**
-Add any other context about the problem here.
+- 设备：
+- 浏览器及版本：
+- 页面地址：
+
+## 补充信息
+
+如方便，请附上截图或控制台报错。提交前请隐藏账号和其他隐私信息。
