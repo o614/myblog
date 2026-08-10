@@ -13,6 +13,12 @@
     font-kerning: normal;
     text-rendering: optimizeLegibility;
 
+    p,
+    li,
+    blockquote {
+      overflow-wrap: anywhere;
+    }
+
     h1,
     h2,
     h3,

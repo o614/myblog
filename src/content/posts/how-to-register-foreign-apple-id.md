@@ -71,8 +71,8 @@ Apple 已将“Apple ID”更名为“Apple 账户”，本文继续使用大家
 ## 相关阅读
 
 - [如何修改 Apple ID 国家或地区？](/posts/how-to-change-apple-id-region/)
-- [如何只切换 App Store 账户？](/posts/how-to-switch-app-store-account/)
-- [外区 Apple ID 真的被“自动送中”了吗？](/posts/why-foreign-apple-id-returns-to-china/)
+- [如何切换 App Store 账户？适配 iOS 26.4](/posts/how-to-switch-app-store-account/)
+- [新注册的外区 Apple ID 为什么总被“自动送中”？](/posts/why-foreign-apple-id-returns-to-china/)
 - [如何在 Apple 官网购买苹果礼品卡？](/posts/how-to-buy-apple-gift-card-from-official-website/)
 
 ![支持本站：赞赏二维码](/Buy-Me-a-Coffee.webp)
