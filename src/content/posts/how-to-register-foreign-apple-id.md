@@ -7,14 +7,14 @@ slug: "how-to-register-foreign-apple-id"
 featured: true
 draft: false
 tags: ["Apple ID", "App Store", "外区账号", "账号教程"]
-description: "以美国区为例，说明外区 Apple ID 的注册、首次登录和常见问题。"
+description: "以美国区为例，说明外区 Apple ID 的注册、首次登录、地区核对和常见问题。"
 ---
 
 ![Apple ID 官方账号注册页面首页](/images/posts/apple-id-register-0.webp)
 
 ## 先说结论
 
-在 [Apple 账户官网](https://account.apple.com/account) 选择目标国家或地区，用可长期访问的邮箱和手机号完成验证即可。注册后先在 App Store 单独登录并下载一个免费 App 测试，不要急着充值或频繁切换地区。
+在 [Apple 账户官网](https://account.apple.com/account) 选择目标国家或地区，用可长期访问的邮箱和手机号完成验证即可。注册后先核对账户地区，再只登录“媒体与购买项目”测试 App Store；不要急着充值。
 
 Apple 已将“Apple ID”更名为“Apple 账户”，本文继续使用大家熟悉的旧称。官方流程以 [Apple 创建账户说明](https://support.apple.com/108647) 为准。
 
@@ -42,12 +42,12 @@ Apple 已将“Apple ID”更名为“Apple 账户”，本文继续使用大家
 
 ## 首次登录 App Store
 
-建议系统设置继续使用原来的主账号，只在 App Store 登录外区账号：
+建议 iCloud 继续使用原来的主账号，只切换“媒体与购买项目”：
 
-1. 打开 App Store，点击右上角头像并退出当前商店账号。
-2. 登录刚注册的外区 Apple ID。
-3. 如果提示商店地区不一致，退出后重新登录，并核对账户地区。
-4. 先下载一个免费 App，确认商店和账号都正常。
+1. 打开“设置”→你的姓名→“媒体与购买项目”。
+2. 退出当前商店账号，再用新账号登录。
+3. 在“查看账户”里确认国家或地区；不要只凭 App Store 的语言判断。
+4. 下载一个免费 App，确认商店和账号都正常。
 
 注册成功只代表账户已创建，不代表每个 App 都能正常注册或使用。软件本身还可能受地区、设备和网络限制。
 
@@ -71,6 +71,8 @@ Apple 已将“Apple ID”更名为“Apple 账户”，本文继续使用大家
 ## 相关阅读
 
 - [如何修改 Apple ID 国家或地区？](/posts/how-to-change-apple-id-region/)
+- [如何只切换 App Store 账户？](/posts/how-to-switch-app-store-account/)
+- [外区 Apple ID 真的被“自动送中”了吗？](/posts/why-foreign-apple-id-returns-to-china/)
 - [如何在 Apple 官网购买苹果礼品卡？](/posts/how-to-buy-apple-gift-card-from-official-website/)
 
 ![支持本站：赞赏二维码](/Buy-Me-a-Coffee.webp)

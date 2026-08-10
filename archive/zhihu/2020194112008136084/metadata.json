@@ -1,0 +1,43 @@
+{
+  "id": "2020194112008136084",
+  "title": "如何切换 App Store 账户？适配 iOS 26.4",
+  "author": {
+    "id": 61724476,
+    "name": "不要艾特我"
+  },
+  "sourceUrl": "https://www.zhihu.com/tardis/jm/art/2020194112008136084",
+  "createdAt": "2026-06-15T14:56:35.000Z",
+  "editedAt": "2026-06-15",
+  "archivedAt": "2026-08-10T06:27:33.244Z",
+  "images": [
+    {
+      "source": "https://pic3.zhimg.com/v2-5b05cdb5bb6bd0739f6babb3b7aea7fa_1440w.jpg?consumer=ZHI_MENG",
+      "file": "images/01.jpg"
+    },
+    {
+      "source": "https://pic2.zhimg.com/v2-c44c48244ee25714c2f82a4a4df2a7c3_1440w.jpg?consumer=ZHI_MENG",
+      "file": "images/02.jpg"
+    },
+    {
+      "source": "https://pic2.zhimg.com/v2-6644e71205e7b1047efaae9dc5862f29_1440w.jpg?consumer=ZHI_MENG",
+      "file": "images/03.jpg"
+    },
+    {
+      "source": "https://pic3.zhimg.com/v2-82641a7574e9fbeda98183b1de68d4ee_1440w.jpg?consumer=ZHI_MENG",
+      "file": "images/04.jpg"
+    },
+    {
+      "source": "https://pic2.zhimg.com/v2-436e5907544543cf44347f466725484d_1440w.jpg?consumer=ZHI_MENG",
+      "file": "images/05.jpg"
+    },
+    {
+      "source": "https://pic2.zhimg.com/v2-d5ce717efd6d4a6e90bea026e09f2bbd_1440w.jpg?consumer=ZHI_MENG",
+      "file": "images/06.jpg"
+    }
+  ],
+  "files": {
+    "rawSource": "source.html",
+    "readableCopy": "article.html",
+    "plainText": "article.txt"
+  }
+}

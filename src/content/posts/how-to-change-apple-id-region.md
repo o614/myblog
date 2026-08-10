@@ -30,7 +30,7 @@ description: "说明 Apple ID 改区前的条件、操作步骤、失败原因�
 ## 在 iPhone 或 iPad 上改区
 
 1. 打开“设置”，点击自己的名字。
-2. 进入“媒体与购买项目”→“显示账户”。
+2. 进入“媒体与购买项目”→“查看账户”。
 3. 点击“国家/地区”→“更改国家或地区”。
 4. 选择目标地区，阅读并同意条款。
 5. 按页面要求填写付款方式和账单地址。
@@ -56,6 +56,8 @@ description: "说明 Apple ID 改区前的条件、操作步骤、失败原因�
 
 不要照抄陌生地址，也不要短时间连续改区。虚假或不匹配的信息可能导致付款失败或触发账户验证。
 
+如果只看到“出现错误，请稍后再试”，先停止反复提交，换到 [account.apple.com](https://account.apple.com/) 核对账户状态，并逐项排除余额、订阅、家庭共享、待处理订单和付款资料。网上流传的“先登录 iCloud 网页就能解锁改区”没有 Apple 官方说明，不应当作必然有效的步骤；条件都满足后仍失败，直接联系 [Apple 支持](https://support.apple.com/zh-cn) 更稳妥。
+
 ## 改区后的影响
 
 - 部分 App、影视、音乐或图书在新地区可能不可用。
@@ -66,6 +68,8 @@ description: "说明 Apple ID 改区前的条件、操作步骤、失败原因�
 ## 相关阅读
 
 - [如何注册外区 Apple ID？](/posts/how-to-register-foreign-apple-id/)
+- [如何只切换 App Store 账户？](/posts/how-to-switch-app-store-account/)
+- [外区 Apple ID 真的被“自动送中”了吗？](/posts/why-foreign-apple-id-returns-to-china/)
 - [如何在 Apple 官网购买苹果礼品卡？](/posts/how-to-buy-apple-gift-card-from-official-website/)
 
 ![支持本站：赞赏二维码](/Buy-Me-a-Coffee.webp)
