@@ -57,6 +57,7 @@ content:
       - name: body
         label: 正文
         type: rich-text
+        description: 选中文字可加粗或添加链接；在空白段落输入 / 可插入标题、列表和图片。网站会自动统一排版。
         required: true
         options:
           switcher: false
@@ -79,6 +80,7 @@ content:
       - name: body
         label: 正文
         type: rich-text
+        description: 选中文字可设置格式；在空白段落输入 / 可插入标题、列表和图片。
         required: true
         options:
           switcher: false

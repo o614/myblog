@@ -15,6 +15,10 @@ export interface UIStrings {
     sharePostViaEmail: string;
     copyLink: string;
     linkCopied: string;
+    shareToMoments: string;
+    shareToMomentsHint: string;
+    shareFallbackCopied: string;
+    shareFallbackManual: string;
     tagLabel: string;
     backToTop: string;
     goBack: string;

@@ -17,6 +17,11 @@ export default {
     sharePostViaEmail: "Share this post via email",
     copyLink: "Copy link",
     linkCopied: "Copied",
+    shareToMoments: "Share to WeChat Moments",
+    shareToMomentsHint: "Open the system share menu and choose WeChat Moments",
+    shareFallbackCopied: "Link copied. Paste it into WeChat Moments to share.",
+    shareFallbackManual:
+      "Use your browser's share menu, or copy the link into WeChat Moments.",
     tagLabel: "Tags",
     backToTop: "Back to top",
     goBack: "Go back",

@@ -1,106 +1,88 @@
 ---
-import LinkButton from "@/components/LinkButton.astro";
-import { tplStr, useTranslations } from "@/i18n";
-import config from "@/config";
+import { useTranslations } from "@/i18n";
 
-const { shareLinks } = config;
 const t = useTranslations(Astro.currentLocale);
-
-const icons = import.meta.glob<{
-  default: (_props: Record<string, unknown>) => unknown;
-}>("/src/assets/icons/socials/*.svg");
-
-const pageUrl = Astro.url;
-
-const platformLabel = (name: string) =>
-  name.charAt(0).toUpperCase() + name.slice(1);
-
-const items = await Promise.all(
-  shareLinks.map(async ({ name, url, linkTitle }) => {
-    const mod = await icons[`/src/assets/icons/socials/${name}.svg`]?.();
-    const Icon = mod?.default;
-    const title =
-      linkTitle ??
-      (name === "mail"
-        ? t.post.sharePostViaEmail
-        : tplStr(t.post.sharePostOn, { platform: platformLabel(name) }));
-    return { url, title, Icon };
-  })
-);
 ---
 
-{
-  items.some(({ Icon }) => Icon) && (
-    <div class="flex flex-none flex-col items-center justify-center gap-1 md:items-start">
-      <span class="italic">{t.post.sharePostIntro}</span>
-      <div class="flex flex-wrap items-center justify-center gap-1">
-        <button
-          type="button"
-          data-copy-share-link
-          data-copy-label={t.post.copyLink}
-          data-copied-label={t.post.linkCopied}
-          class="border-border hover:border-accent hover:text-accent inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-sm transition-colors"
-          title={t.post.copyLink}
-          aria-label={t.post.copyLink}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="size-4"
-            aria-hidden="true"
-          >
-            <path d="M10 13a5 5 0 0 0 7.07.07l2-2a5 5 0 0 0-7.07-7.07l-1.15 1.15" />
-            <path d="M14 11a5 5 0 0 0-7.07-.07l-2 2A5 5 0 0 0 12 20l1.15-1.15" />
-          </svg>
-          <span data-copy-share-label>{t.post.copyLink}</span>
-        </button>
-        {items.map(({ url, title, Icon }) =>
-          Icon ? (
-            <LinkButton
-              href={`${url}${pageUrl}`}
-              class="scale-90 p-2 hover:rotate-6 sm:p-1"
-              title={title}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Icon class="inline-block size-6 scale-125 fill-transparent stroke-current stroke-2 opacity-90 group-hover:fill-transparent sm:scale-110" />
-              <span class="sr-only">{title}</span>
-            </LinkButton>
-          ) : null
-        )}
-      </div>
-    </div>
-  )
-}
+<div
+  class="flex flex-none flex-col items-center gap-2 md:items-start"
+  data-article-share
+>
+  <span>{t.post.sharePostIntro}</span>
+  <div class="flex flex-wrap items-center gap-2">
+    <button
+      type="button"
+      data-copy-share-link
+      data-copy-label={t.post.copyLink}
+      data-copied-label={t.post.linkCopied}
+      class="border-border hover:border-accent hover:text-accent inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm transition-colors"
+      title={t.post.copyLink}
+      aria-label={t.post.copyLink}
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="size-4"
+        aria-hidden="true"
+      >
+        <path d="M10 13a5 5 0 0 0 7.07.07l2-2a5 5 0 0 0-7.07-7.07l-1.15 1.15"
+        ></path>
+        <path d="M14 11a5 5 0 0 0-7.07-.07l-2 2A5 5 0 0 0 12 20l1.15-1.15"
+        ></path>
+      </svg>
+      <span data-copy-share-label>{t.post.copyLink}</span>
+    </button>
+    <button
+      type="button"
+      data-share-to-moments
+      data-fallback-copied={t.post.shareFallbackCopied}
+      data-fallback-manual={t.post.shareFallbackManual}
+      class="border-border hover:border-accent hover:text-accent inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm transition-colors"
+      title={t.post.shareToMomentsHint}
+      aria-label={t.post.shareToMoments}
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="size-4"
+        aria-hidden="true"
+      >
+        <path d="M12 16V3"></path>
+        <path d="m7 8 5-5 5 5"></path>
+        <path d="M5 13v7h14v-7"></path>
+      </svg>
+      <span>{t.post.shareToMoments}</span>
+    </button>
+  </div>
+  <span
+    class="text-muted-foreground min-h-4 text-xs"
+    role="status"
+    data-share-status></span>
+</div>
 
 <script is:inline data-astro-rerun>
   (() => {
-    if (window.__copyShareLinkBound) return;
-    window.__copyShareLinkBound = true;
+    if (window.__articleShareBound) return;
+    window.__articleShareBound = true;
 
-    document.addEventListener("click", async event => {
-      const target =
-        event.target instanceof Element
-          ? event.target.closest("[data-copy-share-link]")
-          : null;
+    const getUrl = () =>
+      document.querySelector('link[rel="canonical"]')?.href ??
+      window.location.href.split("#")[0];
 
-      if (!(target instanceof HTMLButtonElement)) return;
-
-      const label = target.querySelector("[data-copy-share-label]");
-      const copyLabel = target.dataset.copyLabel ?? "Copy link";
-      const copiedLabel = target.dataset.copiedLabel ?? "Copied";
-      const canonicalUrl = document.querySelector(
-        'link[rel="canonical"]'
-      )?.href;
-      const url = canonicalUrl ?? window.location.href.split("#")[0];
-
+    const copyUrl = async url => {
       try {
         await navigator.clipboard.writeText(url);
+        return true;
       } catch {
         const textArea = document.createElement("textarea");
         textArea.value = url;
@@ -109,10 +91,67 @@ const items = await Promise.all(
         textArea.style.opacity = "0";
         document.body.appendChild(textArea);
         textArea.select();
-        document.execCommand("copy");
-        textArea.remove();
+        try {
+          return document.execCommand("copy");
+        } finally {
+          textArea.remove();
+        }
+      }
+    };
+
+    document.addEventListener("click", async event => {
+      const target =
+        event.target instanceof Element
+          ? event.target.closest(
+              "[data-copy-share-link], [data-share-to-moments]"
+            )
+          : null;
+      if (!(target instanceof HTMLButtonElement)) return;
+
+      const status = target
+        .closest("[data-article-share]")
+        ?.querySelector("[data-share-status]");
+      if (status) status.textContent = "";
+      const url = getUrl();
+
+      if (target.hasAttribute("data-share-to-moments")) {
+        if (typeof navigator.share === "function") {
+          const title =
+            document.querySelector('meta[property="og:title"]')?.content ??
+            document.title;
+          try {
+            await navigator.share({ title, url });
+          } catch (error) {
+            if (error?.name !== "AbortError" && status) {
+              status.textContent = target.dataset.fallbackManual ?? "";
+            }
+          }
+        } else {
+          try {
+            const copied = await copyUrl(url);
+            if (status) {
+              status.textContent = copied
+                ? (target.dataset.fallbackCopied ?? "")
+                : (target.dataset.fallbackManual ?? "");
+            }
+          } catch {
+            if (status)
+              status.textContent = target.dataset.fallbackManual ?? "";
+          }
+        }
+        return;
       }
 
+      try {
+        const copied = await copyUrl(url);
+        if (!copied) return;
+      } catch {
+        return;
+      }
+
+      const label = target.querySelector("[data-copy-share-label]");
+      const copyLabel = target.dataset.copyLabel ?? "Copy link";
+      const copiedLabel = target.dataset.copiedLabel ?? "Copied";
       if (label) label.textContent = copiedLabel;
       target.title = copiedLabel;
       target.setAttribute("aria-label", copiedLabel);
