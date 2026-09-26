@@ -97,7 +97,7 @@ export const GET: APIRoute = async ({ url }) => {
                       fontSize: 28,
                       fontWeight: 700,
                     },
-                    children: "数字生活笔记",
+                    children: "我的博客",
                   },
                 },
                 {
@@ -111,7 +111,7 @@ export const GET: APIRoute = async ({ url }) => {
                       fontWeight: 700,
                       marginBottom: 24,
                     },
-                    children: "把复杂的数字服务，讲得简单一点。",
+                    children: "记录生活与想法。",
                   },
                 },
                 {
@@ -133,23 +133,21 @@ export const GET: APIRoute = async ({ url }) => {
             type: "div",
             props: {
               style: { display: "flex", gap: "14px" },
-              children: ["Apple ID", "App Store", "AI 订阅", "数字工具"].map(
-                label => ({
-                  type: "div",
-                  props: {
-                    style: {
-                      display: "flex",
-                      border: "1px solid #d2d2d7",
-                      borderRadius: 999,
-                      padding: "10px 18px",
-                      color: "#3a3a3c",
-                      background: "#ffffff",
-                      fontSize: 22,
-                    },
-                    children: label,
+              children: ["日常", "笔记", "想法"].map(label => ({
+                type: "div",
+                props: {
+                  style: {
+                    display: "flex",
+                    border: "1px solid #d2d2d7",
+                    borderRadius: 999,
+                    padding: "10px 18px",
+                    color: "#3a3a3c",
+                    background: "#ffffff",
+                    fontSize: 22,
                   },
-                })
-              ),
+                  children: label,
+                },
+              })),
             },
           },
         ],

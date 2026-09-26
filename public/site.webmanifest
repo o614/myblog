@@ -1,8 +1,8 @@
 {
   "id": "/",
-  "name": "不要艾特我 · 数字生活笔记",
-  "short_name": "不要艾特我",
-  "description": "记录 Apple ID、App Store、礼品卡、AI 订阅、Google 账号和数字工具折腾经验。",
+  "name": "我的博客",
+  "short_name": "博客",
+  "description": "记录生活与想法的个人博客。",
   "lang": "zh-CN",
   "start_url": "/",
   "scope": "/",

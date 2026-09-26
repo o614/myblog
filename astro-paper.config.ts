@@ -3,10 +3,9 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://290935.xyz/",
-    title: "不要艾特我 · 数字生活笔记",
-    description:
-      "记录 Apple ID、App Store、礼品卡、AI 订阅、Google 账号和数字工具折腾经验。",
-    author: "不要艾特我",
+    title: "我的博客",
+    description: "记录生活与想法的个人博客。",
+    author: "站长",
     profile: "https://290935.xyz/about/",
     ogImage: "og.png",
     lang: "zh-CN",
@@ -28,7 +27,7 @@ export default defineAstroPaperConfig({
     },
     search: "pagefind",
   },
-  socials: [{ name: "github", url: "https://github.com/o614" }],
+  socials: [],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
     { name: "facebook", url: "https://www.facebook.com/sharer.php?u=" },

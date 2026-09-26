@@ -98,7 +98,7 @@ export const GET: APIRoute = async ({ props, url }) => {
                   type: "div",
                   props: {
                     style: { color: "#6e6e73", fontSize: 22 },
-                    children: "290935.xyz",
+                    children: new URL(config.site.url).hostname,
                   },
                 },
               ],
@@ -123,7 +123,7 @@ export const GET: APIRoute = async ({ props, url }) => {
                       fontWeight: 700,
                       marginBottom: 20,
                     },
-                    children: "实用教程",
+                    children: "博客文章",
                   },
                 },
                 {
@@ -161,21 +161,20 @@ export const GET: APIRoute = async ({ props, url }) => {
                   type: "div",
                   props: {
                     style: { display: "flex", gap: "12px" },
-                    children: (tags.length
-                      ? tags.slice(0, 3)
-                      : ["数字生活"]
-                    ).map(tag => ({
-                      type: "div",
-                      props: {
-                        style: {
-                          display: "flex",
-                          borderRadius: 999,
-                          background: "#f0f0f2",
-                          padding: "8px 14px",
+                    children: (tags.length ? tags.slice(0, 3) : ["随笔"]).map(
+                      tag => ({
+                        type: "div",
+                        props: {
+                          style: {
+                            display: "flex",
+                            borderRadius: 999,
+                            background: "#f0f0f2",
+                            padding: "8px 14px",
+                          },
+                          children: `#${tag}`,
                         },
-                        children: `#${tag}`,
-                      },
-                    })),
+                      })
+                    ),
                   },
                 },
                 { type: "div", props: { children: `更新于 ${date}` } },

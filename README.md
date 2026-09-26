@@ -1,51 +1,31 @@
-# 不要艾特我 · 数字生活笔记
+# 我的博客
 
-[290935.xyz](https://290935.xyz/) 是一个中文数字生活博客，主要记录 Apple ID、App Store、礼品卡、AI 订阅、Google 账号和数字工具的实用经验。
+这是一个基于 AstroPaper 的简洁个人博客，网站地址为 [290935.xyz](https://290935.xyz/)。文章和关于页面可以通过 [Pages CMS](https://app.pagescms.org/) 的图文编辑器管理，无需手动排版或编辑 Markdown 文件。
+
+## 写作与发布
+
+1. 打开 [Pages CMS](https://app.pagescms.org/)，用有权访问 `o614/myblog` 的 GitHub 账号登录并选择该仓库。
+2. 在「文章」中新建文章，填写标题、发布时间和摘要，然后在「正文」中直接编辑文字、标题、列表、链接或图片。
+3. 需要稍后发布时开启「草稿」；准备公开时关闭草稿并保存。Pages CMS 会将内容保存到 GitHub 仓库，网站由现有部署流程更新。
+4. 在「关于页面」中可直接修改个人介绍。
+
+编辑器字段和图片目录由仓库根目录的 `.pages.yml` 配置。文章会写入 `src/content/posts/`，上传图片会写入 `public/images/posts/`。示例文章可随时在后台删除。
 
 ## 本地开发
 
-项目需要 Node.js 22.12 或更高版本，以及 pnpm。
+需要 Node.js 22.12 或更新版本及 pnpm。
 
 ```bash
 pnpm install
 pnpm dev
 ```
 
-本地开发地址默认为 `http://localhost:4321`。
-
-## 常用命令
+提交代码前可以运行：
 
 ```bash
-pnpm dev             # 启动开发服务器
-pnpm build           # 类型检查并生成生产版本
-pnpm preview         # 预览生产构建
-pnpm lint            # 检查代码规范
-pnpm format:check    # 检查代码格式
-pnpm optimize:images # 优化文章图片
-pnpm generate:brand  # 根据 favicon.svg 重新生成桌面图标
+pnpm lint
+pnpm format:check
+pnpm build
 ```
 
-## 内容结构
-
-- 文章：`src/content/posts/`
-- 独立页面：`src/content/pages/`
-- 文章图片：`public/images/posts/`
-- 站点名称、作者和社交链接：`astro-paper.config.ts`
-- 分享图模板：`src/pages/og.png.ts` 和 `src/pages/posts/[...slug]/index.png.ts`
-- 移动端桌面配置：`public/site.webmanifest`
-
-发布文章前建议至少运行一次：
-
-```bash
-pnpm run lint
-pnpm run format:check
-pnpm run build
-```
-
-## 部署
-
-项目构建产物位于 `dist/`，可以部署到 Cloudflare Pages 或其他静态网站托管服务。生产域名为 [290935.xyz](https://290935.xyz/)。
-
-## 许可与致谢
-
-站点代码基于开源主题 [AstroPaper](https://github.com/satnaing/astro-paper) 修改，并继续遵循仓库中的 MIT License。博客文章、原创图片和品牌素材的权利归内容作者所有，另有说明的除外。
+站点名称、作者和链接位于 `astro-paper.config.ts`。代码基于 [AstroPaper](https://github.com/satnaing/astro-paper) 修改，遵循仓库中的 MIT License。
