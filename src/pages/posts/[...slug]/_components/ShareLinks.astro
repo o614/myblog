@@ -39,12 +39,12 @@ const t = useTranslations(Astro.currentLocale);
     </button>
     <button
       type="button"
-      data-share-to-moments
+      data-system-share
       data-fallback-copied={t.post.shareFallbackCopied}
       data-fallback-manual={t.post.shareFallbackManual}
       class="border-border hover:border-accent hover:text-accent inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm transition-colors"
-      title={t.post.shareToMomentsHint}
-      aria-label={t.post.shareToMoments}
+      title={t.post.systemShareHint}
+      aria-label={t.post.systemShare}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ const t = useTranslations(Astro.currentLocale);
         <path d="m7 8 5-5 5 5"></path>
         <path d="M5 13v7h14v-7"></path>
       </svg>
-      <span>{t.post.shareToMoments}</span>
+      <span>{t.post.systemShare}</span>
     </button>
   </div>
   <span
@@ -103,7 +103,7 @@ const t = useTranslations(Astro.currentLocale);
       const target =
         event.target instanceof Element
           ? event.target.closest(
-              "[data-copy-share-link], [data-share-to-moments]"
+              "[data-copy-share-link], [data-system-share]"
             )
           : null;
       if (!(target instanceof HTMLButtonElement)) return;
@@ -114,7 +114,7 @@ const t = useTranslations(Astro.currentLocale);
       if (status) status.textContent = "";
       const url = getUrl();
 
-      if (target.hasAttribute("data-share-to-moments")) {
+      if (target.hasAttribute("data-system-share")) {
         if (typeof navigator.share === "function") {
           const title =
             document.querySelector('meta[property="og:title"]')?.content ??
