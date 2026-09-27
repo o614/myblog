@@ -1,54 +1,25 @@
-const THEME_KEY = "theme";
-const LIGHT = "light";
-const DARK = "dark";
-
-function getPreferredTheme(): string {
-  const stored = localStorage.getItem(THEME_KEY);
-  if (stored) return stored;
-  return window.matchMedia("(prefers-color-scheme: dark)").matches
-    ? DARK
-    : LIGHT;
-}
-
-// Reuse the value already set by the inline FOUC-prevention script if available.
-let themeValue: string =
-  (window as unknown as { __theme?: { value: string } }).__theme?.value ??
-  getPreferredTheme();
-
-function persist(): void {
-  localStorage.setItem(THEME_KEY, themeValue);
-  reflect();
-}
+const darkModePreference = window.matchMedia("(prefers-color-scheme: dark)");
 
 function reflect(): void {
+  const theme = darkModePreference.matches ? "dark" : "light";
   const root = document.firstElementChild;
-  root?.setAttribute("data-theme", themeValue);
-  root?.classList.toggle("dark", themeValue === DARK);
-  document.querySelector("#theme-btn")?.setAttribute("aria-label", themeValue);
+  root?.setAttribute("data-theme", theme);
+  root?.classList.toggle("dark", theme === "dark");
 
-  // Fill <meta name="theme-color"> with the computed background colour so
-  // Android's browser chrome matches the page background.
+  // Match the browser chrome to the current page background.
   const bg = window.getComputedStyle(document.body).backgroundColor;
   document
     .querySelector("meta[name='theme-color']")
     ?.setAttribute("content", bg);
 }
 
-function setup(): void {
-  reflect();
-  document.querySelector("#theme-btn")?.addEventListener("click", () => {
-    themeValue = themeValue === LIGHT ? DARK : LIGHT;
-    persist();
-  });
-}
+reflect();
 
-setup();
-
-// Re-run after View Transitions navigation.
-document.addEventListener("astro:after-swap", setup);
+// Re-apply the system preference after View Transitions navigation.
+document.addEventListener("astro:after-swap", reflect);
 
 // Carry the theme-color value across View Transitions to prevent the
-// Android navigation bar from flashing during page transitions.
+// browser chrome from flashing during page transitions.
 document.addEventListener("astro:before-swap", event => {
   const color = document
     .querySelector("meta[name='theme-color']")
@@ -60,10 +31,4 @@ document.addEventListener("astro:before-swap", event => {
   }
 });
 
-// Sync with OS-level dark/light preference changes.
-window
-  .matchMedia("(prefers-color-scheme: dark)")
-  .addEventListener("change", ({ matches }) => {
-    themeValue = matches ? DARK : LIGHT;
-    persist();
-  });
+darkModePreference.addEventListener("change", reflect);

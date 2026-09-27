@@ -97,7 +97,7 @@ export const GET: APIRoute = async ({ url }) => {
                       fontSize: 28,
                       fontWeight: 700,
                     },
-                    children: "我的博客",
+                    children: config.site.title,
                   },
                 },
                 {

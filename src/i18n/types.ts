@@ -61,7 +61,6 @@ export interface UIStrings {
     skipToContent: string;
     openMenu: string;
     closeMenu: string;
-    toggleTheme: string;
     searchPlaceholder: string;
     noResults: string;
     goToPreviousPage: string;

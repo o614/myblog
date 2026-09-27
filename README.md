@@ -1,4 +1,4 @@
-# 我的博客
+# 不要艾特我
 
 这是一个基于 AstroPaper 的简洁个人博客，网站地址为 [290935.xyz](https://290935.xyz/)。文章和关于页面可以通过 [Pages CMS](https://app.pagescms.org/) 的图文编辑器管理，无需手动排版或编辑 Markdown 文件。
 

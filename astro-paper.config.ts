@@ -3,9 +3,9 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://290935.xyz/",
-    title: "我的博客",
+    title: "不要艾特我",
     description: "记录生活与想法的个人博客。",
-    author: "站长",
+    author: "不要艾特我",
     profile: "https://290935.xyz/about/",
     ogImage: "og.png",
     lang: "zh-CN",
@@ -18,7 +18,6 @@ export default defineAstroPaperConfig({
     scheduledPostMargin: 15 * 60 * 1000,
   },
   features: {
-    lightAndDarkMode: true,
     dynamicOgImage: true,
     showArchives: true,
     showBackButton: true,
