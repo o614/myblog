@@ -27,6 +27,7 @@ const config: ResolvedAstroPaperConfig = {
       userConfig.posts?.scheduledPostMargin ?? 15 * 60 * 1000,
   },
   features: {
+    lightAndDarkMode: userConfig.features?.lightAndDarkMode ?? true,
     dynamicOgImage: userConfig.features?.dynamicOgImage ?? true,
     showArchives: userConfig.features?.showArchives ?? true,
     showBackButton: userConfig.features?.showBackButton ?? true,

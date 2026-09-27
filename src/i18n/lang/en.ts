@@ -63,6 +63,7 @@ export default {
     skipToContent: "Skip to content",
     openMenu: "Open menu",
     closeMenu: "Close menu",
+    toggleTheme: "Toggle theme",
     searchPlaceholder: "Search posts...",
     noResults: "No results found",
     goToPreviousPage: "Go to previous page",

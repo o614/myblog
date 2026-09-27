@@ -59,6 +59,7 @@ export default {
     skipToContent: "跳到正文",
     openMenu: "打开菜单",
     closeMenu: "关闭菜单",
+    toggleTheme: "切换主题",
     searchPlaceholder: "搜索文章...",
     noResults: "没有找到结果",
     goToPreviousPage: "前往上一页",
