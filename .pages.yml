@@ -40,6 +40,7 @@ content:
         required: true
       - name: tags
         label: 标签
+        description: 固定分类优先使用 AI、Apple、Google；可按文章主题选择一个或多个。
         type: string
         list: true
       - name: featured
