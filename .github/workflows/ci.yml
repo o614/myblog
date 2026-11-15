@@ -39,11 +39,6 @@ jobs:
       - name: "🔎 Lint code"
         run: pnpm run lint
 
-      - name: "🛠️ Capture Prettier formatting for existing files"
-        run: |
-          pnpm exec prettier --write src/i18n/lang/en.ts 'src/pages/posts/[...slug]/_components/ShareLinks.astro' 'src/pages/tags/[tag]/[...page].astro'
-          git diff -- src/i18n/lang/en.ts 'src/pages/posts/[...slug]/_components/ShareLinks.astro' 'src/pages/tags/[tag]/[...page].astro'
-
       - name: "📝 Checking code format"
         run: pnpm run format:check
 
