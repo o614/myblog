@@ -24,7 +24,10 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
     );
 
     if (tagPosts.length === 0) {
-      return [{ params: { tag }, props: { tagName, page: null } }];
+      return [{
+        params: { tag, page: undefined },
+        props: { tagName, page: null as never },
+      }];
     }
 
     return paginate(tagPosts, {
@@ -53,7 +56,9 @@ const t = useTranslations(locale);
     {
       page?.data.length ? (
         <ul>
-          {page.data.map(data => <Card {...data} />)}
+          {page.data.map(data => (
+            <Card {...data} />
+          ))}
         </ul>
       ) : (
         <p>暂时还没有相关文章。发布文章时选择这个标签，文章就会显示在这里。</p>
