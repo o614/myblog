@@ -19,8 +19,10 @@ export default {
     linkCopied: "Copied",
     systemShare: "System share",
     systemShareHint: "Open your device's share menu",
-    shareFallbackCopied: "Link copied. Paste it into the app you want to share with.",
-    shareFallbackManual: "Could not open the share menu. Copy the link to share it.",
+    shareFallbackCopied:
+      "Link copied. Paste it into the app you want to share with.",
+    shareFallbackManual:
+      "Could not open the share menu. Copy the link to share it.",
     tagLabel: "Tags",
     backToTop: "Back to top",
     goBack: "Go back",
