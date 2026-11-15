@@ -24,10 +24,12 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
     );
 
     if (tagPosts.length === 0) {
-      return [{
-        params: { tag, page: undefined },
-        props: { tagName, page: null as never },
-      }];
+      return [
+        {
+          params: { tag, page: undefined },
+          props: { tagName, page: null as never },
+        },
+      ];
     }
 
     return paginate(tagPosts, {
