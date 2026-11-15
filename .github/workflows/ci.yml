@@ -39,11 +39,6 @@ jobs:
       - name: "🔎 Lint code"
         run: pnpm run lint
 
-      - name: "🛠️ Capture tag page formatting"
-        run: |
-          pnpm exec prettier --write 'src/pages/tags/[tag]/[...page].astro'
-          git diff -- 'src/pages/tags/[tag]/[...page].astro'
-
       - name: "📝 Checking code format"
         run: pnpm run format:check
 
