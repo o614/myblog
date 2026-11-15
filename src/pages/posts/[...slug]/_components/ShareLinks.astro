@@ -102,9 +102,7 @@ const t = useTranslations(Astro.currentLocale);
     document.addEventListener("click", async event => {
       const target =
         event.target instanceof Element
-          ? event.target.closest(
-              "[data-copy-share-link], [data-system-share]"
-            )
+          ? event.target.closest("[data-copy-share-link], [data-system-share]")
           : null;
       if (!(target instanceof HTMLButtonElement)) return;
 
