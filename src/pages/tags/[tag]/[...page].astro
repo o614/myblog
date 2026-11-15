@@ -23,6 +23,10 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
       posts.filter(({ data }) => slugifyAll(data.tags).includes(tag))
     );
 
+    if (tagPosts.length === 0) {
+      return [{ params: { tag }, props: { tagName, page: null } }];
+    }
+
     return paginate(tagPosts, {
       params: { tag },
       props: { tagName },
@@ -46,12 +50,18 @@ const t = useTranslations(locale);
     pageTitle={`${t.pages.tagTitle}: ${tagName}`}
     pageDesc={`${t.pages.tagDesc} "${tagName}".`}
   >
-    <ul>
-      {page.data.map(data => <Card {...data} />)}
-    </ul>
+    {
+      page?.data.length ? (
+        <ul>
+          {page.data.map(data => <Card {...data} />)}
+        </ul>
+      ) : (
+        <p>暂时还没有相关文章。发布文章时选择这个标签，文章就会显示在这里。</p>
+      )
+    }
   </Main>
 
-  <Pagination {page} />
+  {page && <Pagination {page} />}
 
-  <Footer noMarginTop={page.lastPage > 1} />
+  <Footer noMarginTop={page ? page.lastPage > 1 : false} />
 </Layout>
