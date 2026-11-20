@@ -3,7 +3,7 @@ title: "AI-020｜虚拟卡、代充、礼品卡或第三方充值订阅 ChatGPT�
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]
-draft: true
+draft: false
 ---
 
 虚拟卡跑路停服、低价代充用黑卡盗刷，都会导致会员被中途收回甚至账号被封。自己用外区 Apple ID 买正规礼品卡，或者用自己名下的海外卡，稳妥得多。

@@ -3,7 +3,7 @@ title: "AI-007｜ChatGPT 的消息额度、模型限额和 Codex 限额怎么计
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]
-draft: true
+draft: false
 ---
 
 不同套餐、不同模型（如主力推理模型、轻量模型、Codex）都有各自的 5 小时滚动窗口或周限额，而且官方隔一段时间就会调一次。别对照网上的旧表格算，直接以当前页面提示和官方定价页为准。
