@@ -2,6 +2,7 @@
 title: "App Store 已扣款，但 ChatGPT 仍显示 Free，如何恢复购买？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
+featured: true
 tags: ["AI"]
 draft: false
 ---

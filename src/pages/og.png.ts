@@ -111,7 +111,7 @@ export const GET: APIRoute = async ({ url }) => {
                       fontWeight: 700,
                       marginBottom: 24,
                     },
-                    children: "记录生活与想法。",
+                    children: "Apple 与 AI",
                   },
                 },
                 {

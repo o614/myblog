@@ -2,6 +2,7 @@
 title: "购买/升级订阅 “提示购买未完成” “Purchase Not Completed” 怎么办？"
 pubDatetime: 2026-11-16T14:32:47+08:00
 description: ""
+featured: true
 tags: ["Apple"]
 ---
 

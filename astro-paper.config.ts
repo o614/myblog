@@ -4,7 +4,7 @@ export default defineAstroPaperConfig({
   site: {
     url: "https://290935.xyz/",
     title: "不要艾特我",
-    description: "记录生活与想法的个人博客。",
+    description: "数字游民，深度果粉，长期关注 Apple 和 AI 生态。",
     author: "不要艾特我",
     profile: "https://290935.xyz/about/",
     ogImage: "og.png",

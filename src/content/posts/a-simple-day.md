@@ -3,7 +3,7 @@ title: "记录一个简单的日常"
 pubDatetime: 2026-09-25T10:00:00+08:00
 description: "用几段短文展示博客的日常记录排版。"
 featured: false
-draft: false
+draft: true
 tags: ["示例", "日常"]
 ---
 

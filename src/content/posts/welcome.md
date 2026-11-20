@@ -3,7 +3,7 @@ title: "欢迎来到示例博客"
 pubDatetime: 2026-09-26T08:00:00+08:00
 description: "这是一篇示例文章，用来展示博客的标题、段落与列表。"
 featured: true
-draft: false
+draft: true
 tags: ["示例", "开始"]
 ---
 
