@@ -1,5 +1,5 @@
 ---
-title: "AI-038｜为什么 Google 账号能用 Gemini，却没有 Google AI Pro 的订阅入口？"
+title: "为什么 Google 账号能用 Gemini，却没有 Google AI Pro 的订阅入口？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

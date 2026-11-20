@@ -1,5 +1,5 @@
 ---
-title: "AI-022｜ChatGPT 不同国家订阅价格差多少？低价区订阅是否值得？"
+title: "ChatGPT 不同国家订阅价格差多少？低价区订阅是否值得？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

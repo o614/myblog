@@ -1,5 +1,5 @@
 ---
-title: "AI-008｜ChatGPT Go、Plus、Pro 有什么区别？应该订哪个套餐？"
+title: "ChatGPT Go、Plus、Pro 有什么区别？应该订哪个套餐？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

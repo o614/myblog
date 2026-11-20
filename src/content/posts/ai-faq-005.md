@@ -1,5 +1,5 @@
 ---
-title: "AI-005｜ChatGPT 账号被停用后怎么申诉？需要准备什么？"
+title: "ChatGPT 账号被停用后怎么申诉？需要准备什么？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

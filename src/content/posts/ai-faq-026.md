@@ -1,5 +1,5 @@
 ---
-title: "AI-026｜Claude KYC 失败、验证通过后仍被停用或进入 On Hold，怎么办？"
+title: "Claude KYC 失败、验证通过后仍被停用或进入 On Hold，怎么办？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

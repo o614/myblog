@@ -1,5 +1,5 @@
 ---
-title: "AI-025｜Claude 为什么要求 KYC 身份认证？需要什么证件？"
+title: "Claude 为什么要求 KYC 身份认证？需要什么证件？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

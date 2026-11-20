@@ -1,5 +1,5 @@
 ---
-title: "AI-040｜Gemini 免费版、AI Plus / Pro / Ultra 的使用额度怎么计算？"
+title: "Gemini 免费版、AI Plus / Pro / Ultra 的使用额度怎么计算？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

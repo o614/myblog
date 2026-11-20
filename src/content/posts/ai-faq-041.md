@@ -1,5 +1,5 @@
 ---
-title: "AI-041｜Gemini 学生优惠、SheerID 认证和免费试用还能申请吗？"
+title: "Gemini 学生优惠、SheerID 认证和免费试用还能申请吗？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

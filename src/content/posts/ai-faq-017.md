@@ -1,5 +1,5 @@
 ---
-title: "AI-017｜ChatGPT Plus 升级 Pro 失败，原来的 Plus 怎么处理？"
+title: "ChatGPT Plus 升级 Pro 失败，原来的 Plus 怎么处理？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

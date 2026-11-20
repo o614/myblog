@@ -1,5 +1,5 @@
 ---
-title: "AI-045｜Perplexity、Midjourney 等 AI 服务的学生优惠、试用、订阅和拼车靠谱吗？"
+title: "Perplexity、Midjourney 等 AI 服务的学生优惠、试用、订阅和拼车靠谱吗？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

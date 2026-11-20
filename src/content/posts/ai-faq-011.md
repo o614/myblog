@@ -1,5 +1,5 @@
 ---
-title: "AI-011｜没有海外银行卡，ChatGPT 可以通过 Apple App Store 订阅吗？"
+title: "没有海外银行卡，ChatGPT 可以通过 Apple App Store 订阅吗？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

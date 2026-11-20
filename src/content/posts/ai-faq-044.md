@@ -1,5 +1,5 @@
 ---
-title: "AI-044｜Grok / Grok Bot 等怎么订阅？"
+title: "Grok / Grok Bot 等怎么订阅？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

@@ -1,5 +1,5 @@
 ---
-title: "AI-018｜ChatGPT Plus / Pro 和 OpenAI API 余额是通用的吗？"
+title: "ChatGPT Plus / Pro 和 OpenAI API 余额是通用的吗？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

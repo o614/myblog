@@ -1,5 +1,5 @@
 ---
-title: "AI-037｜Google AI Plus、Pro、Ultra 是什么？Gemini Advanced 为什么改名了？"
+title: "Google AI Plus、Pro、Ultra 是什么？Gemini Advanced 为什么改名了？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

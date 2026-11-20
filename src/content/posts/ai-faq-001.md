@@ -1,5 +1,5 @@
 ---
-title: "AI-001｜ChatGPT 怎么注册？为什么提示所在国家或地区不支持？"
+title: "ChatGPT 怎么注册？为什么提示所在国家或地区不支持？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

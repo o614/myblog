@@ -1,5 +1,5 @@
 ---
-title: "AI-015｜ChatGPT 订阅应该在哪里取消？为什么网页找不到取消按钮？"
+title: "ChatGPT 订阅应该在哪里取消？为什么网页找不到取消按钮？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

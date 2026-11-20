@@ -1,5 +1,5 @@
 ---
-title: "AI-019｜ChatGPT 会员是否包含 Codex？Codex 的额度如何计算？"
+title: "ChatGPT 会员是否包含 Codex？Codex 的额度如何计算？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

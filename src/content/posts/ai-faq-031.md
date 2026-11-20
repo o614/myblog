@@ -1,5 +1,5 @@
 ---
-title: "AI-031｜Claude 可以通过 Apple App Store 或 Google Play 订阅吗？"
+title: "Claude 可以通过 Apple App Store 或 Google Play 订阅吗？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

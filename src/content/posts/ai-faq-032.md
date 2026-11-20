@@ -1,5 +1,5 @@
 ---
-title: "AI-032｜Claude 扣款成功但 Pro 没到账，或订阅关联到旧账号怎么办？"
+title: "Claude 扣款成功但 Pro 没到账，或订阅关联到旧账号怎么办？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

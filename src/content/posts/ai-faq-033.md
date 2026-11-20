@@ -1,5 +1,5 @@
 ---
-title: "AI-033｜Claude 被 KYC 或封号后，订阅费用应该找谁退款？"
+title: "Claude 被 KYC 或封号后，订阅费用应该找谁退款？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

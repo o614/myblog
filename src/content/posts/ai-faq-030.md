@@ -1,5 +1,5 @@
 ---
-title: "AI-030｜Claude 官网订阅为什么提示付款失败？信用卡和虚拟卡有什么限制？"
+title: "Claude 官网订阅为什么提示付款失败？信用卡和虚拟卡有什么限制？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

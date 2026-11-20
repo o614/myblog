@@ -1,5 +1,5 @@
 ---
-title: "AI-012｜Apple 扣款成功，ChatGPT 会员却开通到了另一个账号怎么办？"
+title: "Apple 扣款成功，ChatGPT 会员却开通到了另一个账号怎么办？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

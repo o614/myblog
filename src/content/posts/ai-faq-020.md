@@ -1,5 +1,5 @@
 ---
-title: "AI-020｜虚拟卡、代充、礼品卡或第三方充值订阅 ChatGPT，有什么风险？"
+title: "虚拟卡、代充、礼品卡或第三方充值订阅 ChatGPT，有什么风险？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

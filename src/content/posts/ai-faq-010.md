@@ -1,5 +1,5 @@
 ---
-title: "AI-010｜为什么银行卡能绑定，却无法完成 ChatGPT 付款？"
+title: "为什么银行卡能绑定，却无法完成 ChatGPT 付款？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

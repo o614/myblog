@@ -1,5 +1,5 @@
 ---
-title: "AI-021｜ChatGPT 账号可以多人共用或拼车吗？聊天记录安全吗？"
+title: "ChatGPT 账号可以多人共用或拼车吗？聊天记录安全吗？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

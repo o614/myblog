@@ -1,5 +1,5 @@
 ---
-title: "AI-004｜ChatGPT 账号显示 Deleted 或 Deactivated，是什么原因？"
+title: "ChatGPT 账号显示 Deleted 或 Deactivated，是什么原因？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

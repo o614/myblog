@@ -1,5 +1,5 @@
 ---
-title: "AI-036｜Gemini 提示当前国家或地区不支持，网页和 App 为什么表现不同？"
+title: "Gemini 提示当前国家或地区不支持，网页和 App 为什么表现不同？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

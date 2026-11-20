@@ -1,5 +1,5 @@
 ---
-title: "AI-002｜ChatGPT 登录时突然要求手机验证，+86 手机号为什么无法通过？"
+title: "ChatGPT 登录时突然要求手机验证，+86 手机号为什么无法通过？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

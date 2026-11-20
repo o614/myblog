@@ -1,5 +1,5 @@
 ---
-title: "AI-039｜Google AI 订阅成功，但 Gemini 没有显示 Pro 权益怎么办？"
+title: "Google AI 订阅成功，但 Gemini 没有显示 Pro 权益怎么办？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

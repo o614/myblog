@@ -1,5 +1,5 @@
 ---
-title: "AI-028｜用中文和 Claude 对话会被封号吗？地区政策和 Usage Policy 是一回事吗？"
+title: "用中文和 Claude 对话会被封号吗？地区政策和 Usage Policy 是一回事吗？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

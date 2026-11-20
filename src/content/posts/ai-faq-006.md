@@ -1,5 +1,5 @@
 ---
-title: "AI-006｜ChatGPT 突然“降智”、回答质量下降或像进入小黑屋，怎么判断？"
+title: "ChatGPT 突然“降智”、回答质量下降或像进入小黑屋，怎么判断？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

@@ -1,5 +1,5 @@
 ---
-title: "AI-016｜ChatGPT 订阅后不满意、账号被停用或重复扣款，可以退款吗？"
+title: "ChatGPT 订阅后不满意、账号被停用或重复扣款，可以退款吗？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

@@ -1,5 +1,5 @@
 ---
-title: "AI-027｜Claude 被封号或停用后如何申诉？申诉失败还能怎么办？"
+title: "Claude 被封号或停用后如何申诉？申诉失败还能怎么办？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

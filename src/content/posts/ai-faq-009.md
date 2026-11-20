@@ -1,5 +1,5 @@
 ---
-title: "AI-009｜ChatGPT 官网订阅提示 Card Declined / Payment Declined 怎么办？"
+title: "ChatGPT 官网订阅提示 Card Declined / Payment Declined 怎么办？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

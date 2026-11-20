@@ -1,5 +1,5 @@
 ---
-title: "AI-029｜Claude Free、Pro、Max 有什么区别？升级 Max 有哪些注意事项？"
+title: "Claude Free、Pro、Max 有什么区别？升级 Max 有哪些注意事项？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

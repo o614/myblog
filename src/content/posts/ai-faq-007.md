@@ -1,5 +1,5 @@
 ---
-title: "AI-007｜ChatGPT 的消息额度、模型限额和 Codex 限额怎么计算？"
+title: "ChatGPT 的消息额度、模型限额和 Codex 限额怎么计算？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]

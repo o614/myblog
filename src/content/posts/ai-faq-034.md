@@ -1,5 +1,5 @@
 ---
-title: "AI-034｜Claude Pro / Max 包含 Claude Code 吗？与 Anthropic API 有什么区别？"
+title: "Claude Pro / Max 包含 Claude Code 吗？与 Anthropic API 有什么区别？"
 pubDatetime: 2026-11-20T00:00:00+08:00
 description: ""
 tags: ["AI"]
