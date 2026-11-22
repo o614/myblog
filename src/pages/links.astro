@@ -6,36 +6,10 @@ import Footer from "@/components/Footer.astro";
 import IconSearch from "@/assets/icons/IconSearch.svg";
 import config from "@/config";
 
-const groups = [
-  {
-    name: "Apple",
-    links: [
-      { name: "Apple 账户", url: "https://account.apple.com/", detail: "管理登录方式、设备和账户信息。", keywords: "苹果 Apple ID 账号" },
-      { name: "找回 Apple 密码", url: "https://iforgot.apple.com/", detail: "忘记密码时，从这里恢复账户。", keywords: "苹果 Apple ID 账号 重设 重置" },
-      { name: "App Store 账单", url: "https://reportaproblem.apple.com/", detail: "查看购买记录，申请退款。", keywords: "苹果 内购 扣款 订单" },
-    ],
-  },
-  {
-    name: "Google",
-    links: [
-      { name: "Google 账号", url: "https://myaccount.google.com/", detail: "管理个人资料、隐私和安全设置。", keywords: "谷歌 账户" },
-      { name: "恢复 Google 账号", url: "https://accounts.google.com/signin/recovery", detail: "找回账号或重置登录密码。", keywords: "谷歌 账户 忘记" },
-      { name: "Google 付款中心", url: "https://payments.google.com/", detail: "查看交易记录，管理付款方式。", keywords: "谷歌 支付 账单 银行卡" },
-    ],
-  },
-  {
-    name: "AI",
-    links: [
-      { name: "ChatGPT", url: "https://chatgpt.com/", detail: "打开 OpenAI 的对话助手。", keywords: "人工智能 聊天" },
-      { name: "Claude", url: "https://claude.ai/", detail: "打开 Anthropic 的对话助手。", keywords: "人工智能 聊天" },
-      { name: "Gemini", url: "https://gemini.google.com/", detail: "打开 Google 的对话助手。", keywords: "人工智能 谷歌 聊天" },
-    ],
-  },
-];
+import groups from "@/data/directory-links.json";
 ---
 
 <Layout title={`网址导航 | ${config.site.title}`} description="Apple、Google 账号服务和 AI 工具的官方入口。">
-  <meta slot="head" name="robots" content="noindex" />
   <Header />
   <Main pageTitle="网址导航" pageDesc="常用的账号服务与 AI 工具，直达官方页面。" class="pt-8 sm:pt-12">
     <div id="link-directory" data-pagefind-ignore>
@@ -57,7 +31,7 @@ const groups = [
           <h2 id={`heading-${group.name}`}>{group.name}</h2>
           <ul class="link-grid">
             {group.links.map(link => (
-              <li data-match={[group.name, link.name, link.detail, link.url, link.keywords].join(" ").toLowerCase()}>
+              <li data-match={[group.name, link.name, link.detail, link.url, group.keywords].join(" ").toLowerCase()}>
                 <a class="entry" href={link.url} target="_blank" rel="noopener noreferrer">
                   <strong>{link.name}</strong>
                   <span>{link.detail}</span>

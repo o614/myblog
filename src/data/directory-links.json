@@ -1,0 +1,405 @@
+[
+  {
+    "name": "Apple",
+    "keywords": "苹果 Apple ID",
+    "links": [
+      {
+        "name": "Apple Account 注册",
+        "url": "https://account.apple.com/account",
+        "detail": "创建 Apple 账户"
+      },
+      {
+        "name": "Apple Account 管理中心",
+        "url": "https://account.apple.com/",
+        "detail": "账号资料、设备、安全、付款管理"
+      },
+      {
+        "name": "Apple 账户找回",
+        "url": "https://iforgot.apple.com/",
+        "detail": "忘记密码、账号恢复"
+      },
+      {
+        "name": "Apple 订阅管理",
+        "url": "https://apps.apple.com/account/subscriptions",
+        "detail": "查看、取消订阅"
+      },
+      {
+        "name": "Apple 购买记录与退款",
+        "url": "https://reportaproblem.apple.com/",
+        "detail": "查看购买记录、报告问题、申请退款"
+      },
+      {
+        "name": "Apple 双重认证说明",
+        "url": "https://support.apple.com/zh-cn/102660",
+        "detail": "双重认证设置与说明"
+      },
+      {
+        "name": "Apple 官方客服",
+        "url": "https://getsupport.apple.com/",
+        "detail": "账户、付款、设备问题"
+      },
+      {
+        "name": "Apple 官方支持中心",
+        "url": "https://support.apple.com/zh-cn",
+        "detail": "官方帮助文档"
+      },
+      {
+        "name": "Apple 国家/地区修改",
+        "url": "https://support.apple.com/zh-cn/118283",
+        "detail": "App Store 改区"
+      },
+      {
+        "name": "Apple 付款方式说明",
+        "url": "https://support.apple.com/zh-cn/118429",
+        "detail": "付款方式及地区要求"
+      },
+      {
+        "name": "Apple 购买历史说明",
+        "url": "https://support.apple.com/zh-cn/118212",
+        "detail": "购买历史查询"
+      },
+      {
+        "name": "Apple 账单问题处理",
+        "url": "https://support.apple.com/zh-cn/118284",
+        "detail": "付款失败、未知扣款等"
+      },
+      {
+        "name": "Apple 礼品卡兑换",
+        "url": "https://apps.apple.com/redeem",
+        "detail": "兑换礼品卡"
+      },
+      {
+        "name": "Apple 礼品卡购买（美国）",
+        "url": "https://www.apple.com/shop/gift-cards",
+        "detail": "美国 Apple 官网购买"
+      },
+      {
+        "name": "Apple 礼品卡帮助",
+        "url": "https://support.apple.com/zh-cn/108285",
+        "detail": "礼品卡使用问题"
+      },
+      {
+        "name": "Apple 账户余额说明",
+        "url": "https://support.apple.com/zh-cn/119902",
+        "detail": "余额查询"
+      },
+      {
+        "name": "Apple 隐私与数据管理",
+        "url": "https://privacy.apple.com/",
+        "detail": "数据导出、隐私、账号删除"
+      },
+      {
+        "name": "Apple 系统状态",
+        "url": "https://www.apple.com/support/systemstatus/",
+        "detail": "检查 Apple 服务是否异常"
+      },
+      {
+        "name": "Apple 支持社区（只读）",
+        "url": "https://discussions.apple.com/",
+        "detail": "查找历史用户讨论"
+      }
+    ]
+  },
+  {
+    "name": "AI",
+    "keywords": "人工智能",
+    "links": [
+      {
+        "name": "ChatGPT 网页版",
+        "url": "https://chatgpt.com/",
+        "detail": "登录、使用 ChatGPT"
+      },
+      {
+        "name": "ChatGPT 登录",
+        "url": "https://chatgpt.com/auth/login",
+        "detail": "账户登录"
+      },
+      {
+        "name": "ChatGPT IP 出口检测",
+        "url": "https://chatgpt.com/cdn-cgi/trace",
+        "detail": "检查出口 IP、国家代码"
+      },
+      {
+        "name": "OpenAI 官方帮助中心",
+        "url": "https://help.openai.com/",
+        "detail": "账号、订阅、使用问题"
+      },
+      {
+        "name": "OpenAI 客服联系说明",
+        "url": "https://help.openai.com/en/articles/6614161-how-can-i-contact-support",
+        "detail": "联系官方客服"
+      },
+      {
+        "name": "ChatGPT 登录故障排查",
+        "url": "https://help.openai.com/en/articles/7426629-why-cant-i-log-in-to-chatgpt",
+        "detail": "登录失败、账户停用"
+      },
+      {
+        "name": "OpenAI 账户封禁与申诉",
+        "url": "https://help.openai.com/en/articles/10562188-openai-account-warnings-safety-suspensions-and-closures",
+        "detail": "账户警告、停用、申诉"
+      },
+      {
+        "name": "ChatGPT 账单管理",
+        "url": "https://help.openai.com/en/articles/9039756-managing-billing-settings-on-chatgpt-web-and-platform",
+        "detail": "订阅、付款、账单"
+      },
+      {
+        "name": "ChatGPT 取消订阅",
+        "url": "https://help.openai.com/en/articles/7232927-canceling-your-chatgpt-subscription",
+        "detail": "取消官网订阅"
+      },
+      {
+        "name": "ChatGPT 退款说明",
+        "url": "https://help.openai.com/en/articles/7232895-how-do-i-request-a-refund-for-my-chatgpt-subscription",
+        "detail": "官网退款"
+      },
+      {
+        "name": "OpenAI 系统状态",
+        "url": "https://status.openai.com/",
+        "detail": "服务异常检查"
+      },
+      {
+        "name": "OpenAI API 开发者平台",
+        "url": "https://platform.openai.com/",
+        "detail": "API Key、账单、用量"
+      },
+      {
+        "name": "OpenAI 开发者社区",
+        "url": "https://community.openai.com/",
+        "detail": "开发者交流"
+      },
+      {
+        "name": "Claude 网页版",
+        "url": "https://claude.ai/",
+        "detail": "登录、使用 Claude"
+      },
+      {
+        "name": "Claude 订阅与账单管理",
+        "url": "https://claude.ai/settings/billing",
+        "detail": "付款方式、账单、订阅"
+      },
+      {
+        "name": "Claude 官方帮助中心",
+        "url": "https://support.claude.com/",
+        "detail": "账户、登录、订阅"
+      },
+      {
+        "name": "Claude 付费账单说明",
+        "url": "https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs",
+        "detail": "Pro、Max、Ultra 账单"
+      },
+      {
+        "name": "Claude 取消订阅",
+        "url": "https://support.claude.com/en/articles/8325617-cancel-your-pro-max-or-ultra-subscription",
+        "detail": "取消付费套餐"
+      },
+      {
+        "name": "Claude IP 出口检测（待验证）",
+        "url": "https://claude.ai/cdn-cgi/trace",
+        "detail": "网络出口检测"
+      },
+      {
+        "name": "Claude API 开发者平台",
+        "url": "https://platform.claude.com/",
+        "detail": "API Key、账单、开发者控制台"
+      },
+      {
+        "name": "Anthropic 系统状态",
+        "url": "https://status.anthropic.com/",
+        "detail": "服务状态"
+      },
+      {
+        "name": "Google Gemini",
+        "url": "https://gemini.google.com/",
+        "detail": "Gemini 网页版"
+      },
+      {
+        "name": "Google AI Studio",
+        "url": "https://aistudio.google.com/",
+        "detail": "Gemini API 测试与开发"
+      },
+      {
+        "name": "Google AI 套餐",
+        "url": "https://one.google.com/about/google-ai-plans/",
+        "detail": "AI Plus、Pro、Ultra"
+      },
+      {
+        "name": "Microsoft Copilot",
+        "url": "https://copilot.com/",
+        "detail": "Copilot 网页版"
+      }
+    ]
+  },
+  {
+    "name": "Google",
+    "keywords": "谷歌",
+    "links": [
+      {
+        "name": "Google 账号注册",
+        "url": "https://accounts.google.com/signup",
+        "detail": "创建 Google 账号"
+      },
+      {
+        "name": "Google 账号管理",
+        "url": "https://myaccount.google.com/",
+        "detail": "账号总览"
+      },
+      {
+        "name": "Google 个人资料与地址",
+        "url": "https://myaccount.google.com/personal-info",
+        "detail": "姓名、生日、地址等"
+      },
+      {
+        "name": "Google 账号安全设置",
+        "url": "https://myaccount.google.com/security",
+        "detail": "密码、安全设备、验证方式"
+      },
+      {
+        "name": "Google 安全检查",
+        "url": "https://myaccount.google.com/security-checkup",
+        "detail": "安全风险检查"
+      },
+      {
+        "name": "Google 两步验证",
+        "url": "https://myaccount.google.com/signinoptions/two-step-verification",
+        "detail": "2FA 设置"
+      },
+      {
+        "name": "Google 登录设备管理",
+        "url": "https://myaccount.google.com/device-activity",
+        "detail": "查看登录设备"
+      },
+      {
+        "name": "Google 第三方授权管理",
+        "url": "https://myaccount.google.com/connections",
+        "detail": "查看第三方应用授权"
+      },
+      {
+        "name": "Google 账号恢复",
+        "url": "https://accounts.google.com/signin/recovery",
+        "detail": "忘记密码、无法登录"
+      },
+      {
+        "name": "Google 账号关联国家申诉",
+        "url": "https://policies.google.com/country-association-form",
+        "detail": "申请更正账号关联国家/地区"
+      },
+      {
+        "name": "Google IP 国家误判反馈",
+        "url": "https://support.google.com/websearch/workflow/9308722",
+        "detail": "反馈 IP 国家定位错误"
+      },
+      {
+        "name": "Google 服务条款",
+        "url": "https://policies.google.com/terms",
+        "detail": "查看条款及 Country version"
+      },
+      {
+        "name": "Google 隐私政策",
+        "url": "https://policies.google.com/privacy",
+        "detail": "隐私及数据政策"
+      },
+      {
+        "name": "Google 账号帮助中心",
+        "url": "https://support.google.com/accounts",
+        "detail": "账号问题"
+      },
+      {
+        "name": "Google Payments 付款方式",
+        "url": "https://payments.google.com/payments/home#paymentMethods",
+        "detail": "绑卡、管理支付方式"
+      },
+      {
+        "name": "Google Payments 付款资料设置",
+        "url": "https://payments.google.com/payments/home#settings",
+        "detail": "付款资料、国家信息"
+      },
+      {
+        "name": "Google Payments 订阅服务",
+        "url": "https://payments.google.com/payments/home#subscriptionsAndServices",
+        "detail": "管理相关自动续费服务"
+      },
+      {
+        "name": "Google Play 网页商店",
+        "url": "https://play.google.com/",
+        "detail": "浏览商店、查看商店环境"
+      },
+      {
+        "name": "Google Play 账户管理",
+        "url": "https://play.google.com/store/account",
+        "detail": "订单、账户管理"
+      },
+      {
+        "name": "Google Play 订阅管理",
+        "url": "https://play.google.com/store/account/subscriptions",
+        "detail": "查看、取消订阅"
+      },
+      {
+        "name": "Google Play 订单历史",
+        "url": "https://play.google.com/store/account/orderhistory",
+        "detail": "查询购买订单"
+      },
+      {
+        "name": "Google Play 礼品卡兑换",
+        "url": "https://play.google.com/redeem",
+        "detail": "兑换礼品卡"
+      },
+      {
+        "name": "Google Play 改区说明",
+        "url": "https://support.google.com/googleplay/answer/7431675",
+        "detail": "修改 Play 国家/地区"
+      },
+      {
+        "name": "Google Play 礼品卡使用规则",
+        "url": "https://support.google.com/googleplay/answer/3422734",
+        "detail": "礼品卡限制与使用"
+      },
+      {
+        "name": "Google Play 礼品卡故障排查",
+        "url": "https://support.google.com/googleplay/answer/11564359",
+        "detail": "兑换失败、报错"
+      },
+      {
+        "name": "Google Play 退款政策",
+        "url": "https://support.google.com/googleplay/answer/2479637",
+        "detail": "退款规则与申请"
+      },
+      {
+        "name": "Google Play 订阅故障排查",
+        "url": "https://support.google.com/googleplay/answer/9818348",
+        "detail": "订阅、扣款异常"
+      },
+      {
+        "name": "Google 家庭组管理",
+        "url": "https://families.google.com/",
+        "detail": "家庭组、成员管理"
+      },
+      {
+        "name": "Google One 存储空间",
+        "url": "https://one.google.com/storage",
+        "detail": "查看存储占用与清理"
+      },
+      {
+        "name": "Google AI 套餐",
+        "url": "https://one.google.com/about/google-ai-plans/",
+        "detail": "Google AI Plus / Pro / Ultra"
+      },
+      {
+        "name": "Gemini 功能及地区可用性",
+        "url": "https://support.google.com/gemini/answer/16275805",
+        "detail": "功能限制、套餐及地区支持"
+      },
+      {
+        "name": "Gemini 网页版地区支持",
+        "url": "https://support.google.com/gemini/answer/13575153",
+        "detail": "Gemini Web 支持国家和地区"
+      },
+      {
+        "name": "Gemini 官方帮助中心",
+        "url": "https://support.google.com/gemini/",
+        "detail": "Gemini 使用、登录问题"
+      }
+    ]
+  }
+]
