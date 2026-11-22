@@ -1,9 +1,9 @@
 ---
 title: "关于"
-description: "数字游民，深度果粉，长期关注 AI 、Apple 和 Google 生态。"
+description: "数字游民，深度果粉，长期关注 AI、Apple 和 Google 生态。"
 ---
 
-数字游民，深度果粉，长期关注 AI 、Apple 和 Google 生态。
+数字游民，深度果粉，长期关注 AI、Apple 和 Google 生态。
 
 早些年在知乎和公众号写 Apple ID 教程，也“骗”来了一些粉丝。后来受平台规则限制，就很少更新了。
 
