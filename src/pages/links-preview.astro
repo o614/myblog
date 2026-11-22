@@ -1,0 +1,161 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Main from "@/components/Main.astro";
+import Footer from "@/components/Footer.astro";
+import IconSearch from "@/assets/icons/IconSearch.svg";
+import config from "@/config";
+
+const groups = [
+  {
+    name: "Apple",
+    links: [
+      { name: "Apple 账户", url: "https://account.apple.com/", detail: "管理登录方式、设备和账户信息。", keywords: "苹果 Apple ID 账号" },
+      { name: "找回 Apple 密码", url: "https://iforgot.apple.com/", detail: "忘记密码时，从这里恢复账户。", keywords: "苹果 Apple ID 账号 重设 重置" },
+      { name: "App Store 账单", url: "https://reportaproblem.apple.com/", detail: "查看购买记录，申请退款。", keywords: "苹果 内购 扣款 订单" },
+    ],
+  },
+  {
+    name: "Google",
+    links: [
+      { name: "Google 账号", url: "https://myaccount.google.com/", detail: "管理个人资料、隐私和安全设置。", keywords: "谷歌 账户" },
+      { name: "恢复 Google 账号", url: "https://accounts.google.com/signin/recovery", detail: "找回账号或重置登录密码。", keywords: "谷歌 账户 忘记" },
+      { name: "Google 付款中心", url: "https://payments.google.com/", detail: "查看交易记录，管理付款方式。", keywords: "谷歌 支付 账单 银行卡" },
+    ],
+  },
+  {
+    name: "AI",
+    links: [
+      { name: "ChatGPT", url: "https://chatgpt.com/", detail: "打开 OpenAI 的对话助手。", keywords: "人工智能 聊天" },
+      { name: "Claude", url: "https://claude.ai/", detail: "打开 Anthropic 的对话助手。", keywords: "人工智能 聊天" },
+      { name: "Gemini", url: "https://gemini.google.com/", detail: "打开 Google 的对话助手。", keywords: "人工智能 谷歌 聊天" },
+    ],
+  },
+];
+---
+
+<Layout title={`网址导航 | ${config.site.title}`} description="Apple、Google 账号服务和 AI 工具的官方入口。">
+  <meta slot="head" name="robots" content="noindex" />
+  <Header />
+  <Main pageTitle="网址导航" pageDesc="常用的账号服务与 AI 工具，直达官方页面。" class="pt-8 sm:pt-12">
+    <div id="link-directory" data-pagefind-ignore>
+      <div data-controls hidden>
+        <label class="search-box">
+          <IconSearch aria-hidden="true" width={20} height={20} />
+          <span class="sr-only">搜索网址</span>
+          <input type="search" placeholder="搜索名称、用途或域名" />
+        </label>
+        <div class="filters" role="group" aria-label="网址分类">
+          {["全部", ...groups.map(group => group.name)].map((name, i) => (
+            <button type="button" data-filter={name} aria-pressed={i === 0 ? "true" : "false"}>{name}</button>
+          ))}
+        </div>
+      </div>
+      <p role="status" class="sr-only" data-status></p>
+      {groups.map(group => (
+        <section class="link-section" data-group={group.name} aria-labelledby={`heading-${group.name}`}>
+          <h2 id={`heading-${group.name}`}>{group.name}</h2>
+          <ul class="link-grid">
+            {group.links.map(link => (
+              <li data-match={[group.name, link.name, link.detail, link.url, link.keywords].join(" ").toLowerCase()}>
+                <a class="entry" href={link.url} target="_blank" rel="noopener noreferrer">
+                  <strong>{link.name}</strong>
+                  <span>{link.detail}</span>
+                  <small>{new URL(link.url).hostname}</small>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+      <div data-empty hidden class="empty">
+        <p>没有找到匹配的网址。</p>
+        <button type="button" data-reset>清除筛选</button>
+      </div>
+    </div>
+  </Main>
+  <Footer />
+</Layout>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const directory = document.querySelector("#link-directory");
+    if (!directory) return;
+    const input = directory.querySelector("input")!;
+    const controls = directory.querySelector<HTMLElement>("[data-controls]")!;
+    const filters = directory.querySelectorAll<HTMLButtonElement>("[data-filter]");
+    const sections = directory.querySelectorAll<HTMLElement>("[data-group]");
+    const empty = directory.querySelector<HTMLElement>("[data-empty]")!;
+    const status = directory.querySelector("[data-status]")!;
+    let category = "全部";
+
+    function update() {
+      const terms = input.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+      let count = 0;
+      for (const section of sections) {
+        const inCategory = category === "全部" || category === section.dataset.group;
+        let visible = 0;
+        for (const item of section.querySelectorAll<HTMLElement>("[data-match]")) {
+          item.hidden = !inCategory || !terms.every(term => item.dataset.match!.includes(term));
+          if (!item.hidden) visible++;
+        }
+        section.hidden = visible === 0;
+        count += visible;
+      }
+      for (const button of filters) {
+        button.setAttribute("aria-pressed", String(button.dataset.filter === category));
+      }
+      empty.hidden = count !== 0;
+      status.textContent = `找到 ${count} 个网址`;
+    }
+
+    input.addEventListener("input", update);
+    for (const button of filters) {
+      button.addEventListener("click", () => {
+        category = button.dataset.filter!;
+        update();
+      });
+    }
+    directory.querySelector("[data-reset]")!.addEventListener("click", () => {
+      input.value = "";
+      category = "全部";
+      update();
+      input.focus();
+    });
+    controls.hidden = false;
+    update();
+  });
+</script>
+
+<style>
+  .search-box {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding-inline: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 0.65rem;
+    background: var(--muted);
+    color: var(--muted-foreground);
+  }
+  .search-box:focus-within { outline: 2px solid var(--accent); }
+  input { width: 100%; min-width: 0; padding-block: 0.8rem; color: var(--foreground); outline: none; }
+  .filters { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-block: 1rem 1.5rem; }
+  .filters button { min-height: 2.75rem; padding-inline: 1rem; border-radius: 2rem; font-weight: 600; }
+  .filters button:hover { background: var(--muted); }
+  .filters button[aria-pressed="true"] { background: var(--foreground); color: var(--background); }
+  .link-section { border-top: 1px solid var(--border); padding-block: 1.35rem 1.65rem; }
+  h2 { margin-bottom: 0.85rem; font-size: 1.4rem; font-weight: 650; }
+  .link-grid { display: grid; gap: 0.65rem; }
+  .entry {
+    display: flex; flex-direction: column; align-items: flex-start; height: 100%;
+    padding: 1rem; border: 1px solid var(--border); border-radius: 0.65rem;
+  }
+  .entry:hover, .entry:focus-visible { border-color: var(--accent); background: var(--muted); }
+  .entry strong { color: var(--accent); font-size: 1.05rem; }
+  .entry span { margin-block: 0.35rem 0.8rem; line-height: 1.5; }
+  .entry small { margin-top: auto; font-size: 0.8125rem; color: var(--muted-foreground); overflow-wrap: anywhere; }
+  .empty { padding-block: 2rem 3rem; }
+  .empty button { margin-top: 0.5rem; padding-block: 0.5rem; color: var(--accent); text-decoration: underline; }
+  @media (min-width: 40rem) { .link-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+</style>
