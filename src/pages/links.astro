@@ -25,7 +25,7 @@ import groups from "@/data/directory-links.json";
           ))}
         </div>
       </div>
-      <p role="status" class="sr-only" data-status></p>
+      <p role="status" class="text-muted-foreground mb-3 text-sm empty:hidden" data-status></p>
       {groups.map(group => (
         <section class="link-section" data-group={group.name} aria-labelledby={`heading-${group.name}`}>
           <h2 id={`heading-${group.name}`}>{group.name}</h2>
