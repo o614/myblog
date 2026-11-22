@@ -92,11 +92,6 @@
         "name": "Apple 系统状态",
         "url": "https://www.apple.com/support/systemstatus/",
         "detail": "检查 Apple 服务是否异常"
-      },
-      {
-        "name": "Apple 支持社区（只读）",
-        "url": "https://discussions.apple.com/",
-        "detail": "查找历史用户讨论"
       }
     ]
   },
